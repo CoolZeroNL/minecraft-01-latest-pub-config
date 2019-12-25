@@ -15,6 +15,6 @@ jobs:
         # uname -a
         # ls -la
         # sudo screen -S latest.legendsandmasters.nl -X quit
-        sudo rsync -a --exclude '.git' --exclude '.github' ./ /home/minecraft/deployed/minecraft-00/
-        # sudo ls -la /home/minecraft/deployed/minecraft-00  
-        # sudo cat /home/minecraft/deployed/minecraft-00/settings.cfg     
+        sudo rsync -a --exclude '.git' --exclude '.github' ./ /home/minecraft/deployed/minecraft-01-latest/
+        # sudo ls -la /home/minecraft/deployed/minecraft-01-latest 
+        # sudo cat /home/minecraft/deployed/minecraft-01-latest/settings.cfg     
