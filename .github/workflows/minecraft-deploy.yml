@@ -12,9 +12,9 @@ jobs:
     - uses: actions/checkout@v1
     - name: get config
       run: |
-        uname -a
-        ls -la
+        # uname -a
+        # ls -la
         # sudo screen -S latest.legendsandmasters.nl -X quit
         sudo rsync -a --exclude '.git' --exclude '.github' ./ /home/minecraft/deployed/minecraft-00/
-        sudo ls -la /home/minecraft/deployed/minecraft-00  
-        sudo cat /home/minecraft/deployed/minecraft-00/settings.cfg     
+        # sudo ls -la /home/minecraft/deployed/minecraft-00  
+        # sudo cat /home/minecraft/deployed/minecraft-00/settings.cfg     
