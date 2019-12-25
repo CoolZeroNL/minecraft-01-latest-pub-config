@@ -14,9 +14,8 @@ jobs:
       run: |
         uname -a
         ls -la
-        # sudo screen -S latest.legendsandmasters.nl -X quit
-        # sudo git clone https://github.com/CoolZeroNL/minecraft-01-latest-pub-config.git
-        # cp minecraft-01-latest-pub-config/* /home/minecraft/deployed/minecraft-00/
-        # cp -R minecraft-01-latest-pub-config/* /home/minecraft/deployed/minecraft-00/
-        # cd /home/minecraft/deployed/minecraft-00
-        
+        sudo screen -S latest.legendsandmasters.nl -X quit
+        sudo cp * /home/minecraft/deployed/minecraft-00/
+        sudo cp -R ./* /home/minecraft/deployed/minecraft-00/
+        sudo ls -la /home/minecraft/deployed/minecraft-00  
+        sudo cat /home/minecraft/deployed/minecraft-00/settings.cfg     
