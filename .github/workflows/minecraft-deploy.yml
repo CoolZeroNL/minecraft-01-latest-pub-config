@@ -15,7 +15,6 @@ jobs:
         uname -a
         ls -la
         # sudo screen -S latest.legendsandmasters.nl -X quit
-        sudo cp * /home/minecraft/deployed/minecraft-00/
-        sudo cp -R ./* /home/minecraft/deployed/minecraft-00/
+        rsync -a ./ /home/minecraft/deployed/minecraft-00/
         sudo ls -la /home/minecraft/deployed/minecraft-00  
         sudo cat /home/minecraft/deployed/minecraft-00/settings.cfg     
