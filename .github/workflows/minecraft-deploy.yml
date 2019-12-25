@@ -1,0 +1,16 @@
+name: "minecraft-deploy"
+# on:
+#   schedule: 
+#   - cron: '*/5 * * * *'
+on: push
+
+jobs:
+  my-job:
+    name: get config
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v1
+    - name: get config
+      run: |
+        uname -a
+        ls -la
