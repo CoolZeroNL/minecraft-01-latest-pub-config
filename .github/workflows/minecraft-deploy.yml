@@ -18,3 +18,4 @@ jobs:
         sudo rsync -a --exclude '.git' --exclude '.github' ./ /home/minecraft/deployed/minecraft-01-latest/
         # sudo ls -la /home/minecraft/deployed/minecraft-01-latest 
         # sudo cat /home/minecraft/deployed/minecraft-01-latest/settings.cfg     
+        sudo chown -R minecraft: /home/minecraft/deployed/
