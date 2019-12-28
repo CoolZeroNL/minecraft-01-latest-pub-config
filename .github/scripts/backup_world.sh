@@ -1,6 +1,7 @@
 #!/bin/bash
 
 hostname=${1:-''}
+folder=${2:-''}
 NOW=$(date +"%m-%d-%Y-%H-%M-%S")
 FILE="backup-world.$NOW.$hostname.tar.gz"
 
