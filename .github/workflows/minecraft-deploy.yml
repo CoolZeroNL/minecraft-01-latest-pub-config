@@ -90,6 +90,8 @@ jobs:
     - name: check deploy
       run: |
         uname -a
+        chmod +x ./.github/scripts/backup_world.sh
+        ./.github/scripts/backup_world.sh "$HOSTNAME"        
         
   _08-deploy:
     runs-on: self-hosted
