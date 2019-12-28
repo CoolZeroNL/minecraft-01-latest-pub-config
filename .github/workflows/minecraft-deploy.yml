@@ -28,11 +28,13 @@ jobs:
     
   _02-checkout:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - uses: actions/checkout@v1
 
   _03-check-deploy:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - name: check deploy
       run: |
@@ -40,6 +42,7 @@ jobs:
 
   _04-check-connected:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - name: check deploy
       run: |
@@ -47,6 +50,7 @@ jobs:
 
   _05-check-process:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - name: check deploy
       run: |
@@ -54,6 +58,7 @@ jobs:
 
   _06-backup-all:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - name: check deploy
       run: |
@@ -61,6 +66,7 @@ jobs:
 
   _07-backup-world:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - name: check deploy
       run: |
@@ -68,6 +74,7 @@ jobs:
         
   _08-deploy:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - name: check deploy      
       run: |
@@ -77,6 +84,7 @@ jobs:
         
   _09-deploy-checks:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - name: check deploy      
       run: |
@@ -84,6 +92,7 @@ jobs:
         
   _10-start-server:
     runs-on: self-hosted
+    needs: _01-ci_skip
     steps:
     - name: check deploy      
       run: |
