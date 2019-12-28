@@ -47,6 +47,8 @@ jobs:
     - name: check deploy
       run: |
         uname -a
+        chmod +x ./.github/scripts/check_connected.sh
+        ./.github/scripts/check_connected.sh        
 
   _05-check-process:
     runs-on: self-hosted
