@@ -3,7 +3,7 @@
 #ps aux | grep java
 #ps aux | grep ServerStart.sh
 
-hostname='latest.legendsandmasters.nl'
+_hostname=${1:-''}
 
 list=`ps aux | grep "$hostname" | grep java`
 if [ -z "$list" ]; then
