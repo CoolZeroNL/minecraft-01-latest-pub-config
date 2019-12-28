@@ -101,11 +101,13 @@ jobs:
     runs-on: self-hosted
     needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process, _06-backup-all, _07-backup-world]
     steps:
-    - name: check deploy      
+    - name: check deploy
+      env:
+        FOLDER: "minecraft-01-latest"            
       run: |
         uname -a 
-        # sudo rsync -a --exclude '.git' --exclude '.github' ./ /home/minecraft/deployed/minecraft-01-latest/    
-        # sudo chown -R minecraft: /home/minecraft/deployed/        
+        sudo rsync -a --exclude '.git' --exclude '.github' ./ /home/minecraft/deployed/"$FOLDER"/    
+        sudo chown -R minecraft: /home/minecraft/deployed/        
         
   _09-deploy-checks:
     runs-on: self-hosted
@@ -121,7 +123,8 @@ jobs:
     steps:
     - name: check deploy      
       run: |
-        uname -a        
+        uname -a
+                
         
 # jobs:
 #   my-job:
