@@ -5,53 +5,53 @@ name: "minecraft-deploy"
 on: push
 
 jobs:
-  01-ci_skip:
+  _01-ci_skip:
     runs-on: self-hosted
     steps:
     - name: Skip based on commit message
       uses: veggiemonk/skip-commit@1.0.0
 
-  02-checkout:
+  _02-checkout:
     runs-on: self-hosted
     steps:
     - uses: actions/checkout@v1
 
-  03-check-deploy:
+  _03-check-deploy:
     runs-on: self-hosted
     steps:
     - name: check deploy
       run: |
         uname -a
 
-  04-check-connected:
+  _04-check-connected:
     runs-on: self-hosted
     steps:
     - name: check deploy
       run: |
         uname -a
 
-  05-check-process:
+  _05-check-process:
     runs-on: self-hosted
     steps:
     - name: check deploy
       run: |
         uname -a
 
-  06-backup-all:
+  _06-backup-all:
     runs-on: self-hosted
     steps:
     - name: check deploy
       run: |
         uname -a
 
-  07-backup-world:
+  _07-backup-world:
     runs-on: self-hosted
     steps:
     - name: check deploy
       run: |
         uname -a
         
-  08-deploy:
+  _08-deploy:
     runs-on: self-hosted
     steps:
     - name: check deploy      
@@ -60,14 +60,14 @@ jobs:
         # sudo rsync -a --exclude '.git' --exclude '.github' ./ /home/minecraft/deployed/minecraft-01-latest/    
         # sudo chown -R minecraft: /home/minecraft/deployed/        
         
-  09-deploy-checks:
+  _09-deploy-checks:
     runs-on: self-hosted
     steps:
     - name: check deploy      
       run: |
         uname -a
         
-  10-start-server:
+  _10-start-server:
     runs-on: self-hosted
     steps:
     - name: check deploy      
