@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: check deploy
       env:
-        COMMIT_FILTER: "[ci skip]"
+        COMMIT_FILTER: "skip-ci"
       run: | 
         # Get last commit message
         readonly local last_commit_log=$(git log -1 --pretty=format:"%s")
