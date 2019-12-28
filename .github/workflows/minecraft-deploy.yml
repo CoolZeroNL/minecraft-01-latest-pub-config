@@ -34,7 +34,7 @@ jobs:
 
   _03-check-deploy:
     runs-on: self-hosted
-    needs: _01-ci_skip
+    needs: [_01-ci_skip, _02-checkout]
     steps:
     - name: check deploy
       run: |
@@ -42,7 +42,7 @@ jobs:
 
   _04-check-connected:
     runs-on: self-hosted
-    needs: _01-ci_skip
+    needs: [_01-ci_skip, _02-checkout, _03-check-deploy]
     steps:
     - name: check deploy
       run: |
@@ -50,7 +50,7 @@ jobs:
 
   _05-check-process:
     runs-on: self-hosted
-    needs: _01-ci_skip
+    needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected]
     steps:
     - name: check deploy
       run: |
@@ -58,7 +58,7 @@ jobs:
 
   _06-backup-all:
     runs-on: self-hosted
-    needs: _01-ci_skip
+    needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process]
     steps:
     - name: check deploy
       run: |
@@ -66,7 +66,7 @@ jobs:
 
   _07-backup-world:
     runs-on: self-hosted
-    needs: _01-ci_skip
+    needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process, _06-backup-all]
     steps:
     - name: check deploy
       run: |
@@ -74,7 +74,7 @@ jobs:
         
   _08-deploy:
     runs-on: self-hosted
-    needs: _01-ci_skip
+    needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process, _06-backup-all, _07-backup-world]
     steps:
     - name: check deploy      
       run: |
@@ -84,7 +84,7 @@ jobs:
         
   _09-deploy-checks:
     runs-on: self-hosted
-    needs: _01-ci_skip
+    needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process, _06-backup-all, _07-backup-world, _08-deploy]
     steps:
     - name: check deploy      
       run: |
@@ -92,7 +92,7 @@ jobs:
         
   _10-start-server:
     runs-on: self-hosted
-    needs: _01-ci_skip
+    needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process, _06-backup-all, _07-backup-world, _08-deploy, _09-deploy-checks]
     steps:
     - name: check deploy      
       run: |
