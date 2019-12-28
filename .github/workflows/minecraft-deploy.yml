@@ -63,6 +63,8 @@ jobs:
         ./.github/scripts/check_process.sh "$HOSTNAME"
     # if fails
     - name: kill server
+      env:
+        HOSTNAME: "latest.legendsandmasters.nl"      
       if: failure()
       run: |
         uname -a
