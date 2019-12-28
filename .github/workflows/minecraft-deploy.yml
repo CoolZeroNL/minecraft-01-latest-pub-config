@@ -25,7 +25,7 @@ jobs:
           echo "the last commit log \"$last_commit_log\" contains \"$COMMIT_FILTER\", stopping"
           exit 78
         fi    
-     
+      
   _02-checkout:
     runs-on: self-hosted
     needs: _01-ci_skip
