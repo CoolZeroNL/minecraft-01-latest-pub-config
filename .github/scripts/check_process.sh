@@ -9,9 +9,9 @@ list=`ps aux | grep "$hostname" | grep java`
 if [ -z "$list" ]; then
  echo "not running"
  echo $list
- exit 1
+ exit 0
 else
  echo "running"
  echo $list
- exit 0
+ exit 1
 fi
