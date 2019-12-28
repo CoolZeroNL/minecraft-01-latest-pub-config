@@ -11,8 +11,8 @@ ps -ewo pid,etime,cmd | grep '/bin/bash ./ServerStart.sh' | grep "$hostname" \
     ps -ewo pid,etime,cmd | grep $subpid | grep -v grep
 
    echo ""
-   kill -9 $pid		      # serverstart
-   kill -9 $subpid      # java
+   sudo kill -9 $pid		      # serverstart
+   sudo kill -9 $subpid      # java
 
 done
 
