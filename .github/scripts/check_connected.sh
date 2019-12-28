@@ -1,6 +1,7 @@
 #!/bin/bash
 
-file=`cat ./server.properties`
+folder='/home/minecraft/deployed/minecraft01-latest'
+file=`cat "$folder"/server.properties`
 port=`echo $file | grep server-port`
 
 # if file exists and has a size greater than zero
