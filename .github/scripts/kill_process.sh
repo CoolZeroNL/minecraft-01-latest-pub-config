@@ -2,13 +2,13 @@
 
 _hostname=${1:-''}
 
-list=`ps aux | grep '/bin/bash ./ServerStart.sh' | grep "$hostname"`
+list=`sudo ps aux | grep '/bin/bash ./ServerStart.sh' | grep "$hostname"`
 
-ps -ewo pid,etime,cmd | grep '/bin/bash ./ServerStart.sh' | grep "$hostname" \
+sudo ps -ewo pid,etime,cmd | grep '/bin/bash ./ServerStart.sh' | grep "$hostname" \
   | while read -r pid etime cmd ; do
     echo "$pid $cmd $etime"
-    subpid=`ps -ef| awk '$3 == '$pid' { print $2 }'`
-    ps -ewo pid,etime,cmd | grep $subpid | grep -v grep
+    subpid=`sudo ps -ef| awk '$3 == '$pid' { print $2 }'`
+    sudo ps -ewo pid,etime,cmd | grep $subpid | grep -v grep
 
    echo ""
    sudo kill -9 $pid		      # serverstart
