@@ -10,10 +10,12 @@ echo $port
 # if file exists and has a size greater than zero
 if [ -s .players ]; then
   lsof -iTCP:$port -sTCP:ESTABLISHED > .players
+  echo "players not connected"
   rm .players
   exit 0
 else
-  lsof -iTCP:$port -sTCP:ESTABLISHED > .players && echo "connected"
+  lsof -iTCP:$port -sTCP:ESTABLISHED > .players
+  echo "players connected"
   rm .players
   exit 1
 fi
