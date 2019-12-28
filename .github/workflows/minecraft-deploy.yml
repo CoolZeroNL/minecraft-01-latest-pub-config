@@ -58,7 +58,7 @@ jobs:
       run: |
         uname -a
         chmod +x ./.github/scripts/check_process.sh
-        ./.github/scripts/check_process.sh"$HOSTNAME"
+        ./.github/scripts/check_process.sh "$HOSTNAME"
 
   _06-backup-all:
     runs-on: self-hosted
