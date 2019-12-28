@@ -131,8 +131,8 @@ jobs:
         sudo cd /home/minecraft/deployed/"$FOLDER"/
         # sudo su minecraft -c "cd /home/minecraft/deployed/"$FOLDER"/; /bin/bash"
         sudo runuser -l  minecraft -c 'cd /home/minecraft/deployed/"$FOLDER"/; nohup ./ServerStart.sh -a "$HOSTNAME" > /dev/null 2>&1 & echo $! > "$FOLDER".pid'
-        
-                
+        # sudo runuser -l  minecraft -c 'cd /home/minecraft/deployed/minecraft-01-latest/ ; nohup ./ServerStart.sh -a latest.legendsandmasters.nl > /dev/null 2>&1 & echo $! > minecraft-01-latest.pid'
+
         
 # jobs:
 #   my-job:
