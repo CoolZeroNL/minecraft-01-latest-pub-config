@@ -2,7 +2,7 @@
 
 hostname=${1:-''}
 NOW=$(date +"%m-%d-%Y-%H-%M-%S")
-FILE="backup.$NOW.$hostname.tar.gz"
+FILE="backup-world.$NOW.$hostname.tar.gz"
 
 ls -la
 
