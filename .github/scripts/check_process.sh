@@ -5,7 +5,7 @@
 
 _hostname=${1:-''}
 
-list=`ps aux | grep "$hostname" | grep java`
+list=`ps aux | grep "$hostname" | grep java`| grep -v grep
 if [ -z "$list" ]; then
  echo "not running"
  echo $list
