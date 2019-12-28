@@ -53,8 +53,12 @@ jobs:
     needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected]
     steps:
     - name: check deploy
+      env:
+        HOSTNAME: "latest.legendsandmasters.nl"
       run: |
         uname -a
+        chmod +x ./.github/scripts/check_process.sh
+        ./.github/scripts/check_process.sh"$HOSTNAME"
 
   _06-backup-all:
     runs-on: self-hosted
