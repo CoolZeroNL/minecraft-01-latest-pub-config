@@ -61,7 +61,14 @@ jobs:
         uname -a
         chmod +x ./.github/scripts/check_process.sh
         ./.github/scripts/check_process.sh "$HOSTNAME"
-
+    # if fails
+    - name: kill server
+      if: failure()
+      run: |
+        uname -a
+        chmod +x ./.github/scripts/kill_process.sh
+        ./.github/scripts/kill_process.sh "$HOSTNAME"       
+      
   _06-backup-all:
     runs-on: self-hosted
     needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process]
