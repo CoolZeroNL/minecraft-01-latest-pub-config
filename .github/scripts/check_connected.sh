@@ -2,8 +2,8 @@
 
 folder=${1:-''}
 dir="/home/minecraft/deployed/$folder"
-file=`cat "$dir"/server.properties`
-port=`echo $file | grep server-port`
+file=`sudo cat "$dir"/server.properties`
+port=`echo $file | grep server-port | awk -F'=' '{print $2}'`
 
 # if file exists and has a size greater than zero
 if [ -s .players ]; then
