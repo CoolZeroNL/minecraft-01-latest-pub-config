@@ -55,6 +55,7 @@ jobs:
     needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected]
     steps:
     - name: check deploy
+      continue-on-error: true
       env:
         HOSTNAME: "latest.legendsandmasters.nl"
       run: |
