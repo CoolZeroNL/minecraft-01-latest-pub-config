@@ -78,20 +78,24 @@ jobs:
     - name: check deploy
       env:
         HOSTNAME: "latest.legendsandmasters.nl"
+        FOLDER: "minecraft-01-latest"
       run: |
         uname -a
         chmod +x ./.github/scripts/backup_all.sh
-        ./.github/scripts/backup_all.sh "$HOSTNAME"
+        ./.github/scripts/backup_all.sh "$HOSTNAME" "$FOLDER"
 
   _07-backup-world:
     runs-on: self-hosted
     needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process, _06-backup-all]
     steps:
     - name: check deploy
+      env:
+        HOSTNAME: "latest.legendsandmasters.nl"
+        FOLDER: "minecraft-01-latest"      
       run: |
         uname -a
         chmod +x ./.github/scripts/backup_world.sh
-        ./.github/scripts/backup_world.sh "$HOSTNAME"        
+        ./.github/scripts/backup_world.sh "$HOSTNAME" "$FOLDER"       
         
   _08-deploy:
     runs-on: self-hosted
