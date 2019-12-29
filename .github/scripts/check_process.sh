@@ -13,5 +13,9 @@ if [ -z "$list" ]; then
 else
  echo "running"
  echo $list
- exit 1
+ uname -a
+ ls -la 
+ chmod +x ./kill_process.sh
+ ./kill_process.sh "$hostname"  
+ exit 0
 fi
