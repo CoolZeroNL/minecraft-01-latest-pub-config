@@ -71,7 +71,7 @@ jobs:
         uname -a
         chmod +x ./.github/scripts/kill_process.sh
         ./.github/scripts/kill_process.sh "$HOSTNAME"       
-      
+       
   _06-backup-all:
     runs-on: self-hosted
     needs: [_01-ci_skip, _02-checkout, _03-check-deploy, _04-check-connected, _05-check-process]
