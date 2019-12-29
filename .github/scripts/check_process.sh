@@ -15,7 +15,7 @@ else
  echo $list
  uname -a
  ls -la 
- chmod +x ./kill_process.sh
- ./kill_process.sh "$hostname"  
+ chmod +x ./.github/scripts/kill_process.sh
+ ./.github/scripts/kill_process.sh "$hostname"  
  exit 0
 fi
