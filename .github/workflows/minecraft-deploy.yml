@@ -3,7 +3,7 @@ name: "minecraft-deploy"
 #   schedule: 
 #   - cron: '*/5 * * * *'
 on: push
-  
+   
 jobs:
   _01-ci_skip:
     runs-on: self-hosted
