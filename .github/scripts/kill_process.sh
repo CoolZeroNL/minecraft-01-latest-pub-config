@@ -4,7 +4,7 @@ _hostname=${1:-''}
 
 list=`sudo ps aux | grep '/bin/bash ./ServerStart.sh' | grep "$hostname"`
 
-sudo ps -ewo pid,etime,cmd | grep '/bin/bash ./ServerStart.sh' | grep "$hostname" \
+sudo ps -ewo pid,etime,cmd | grep '/bin/bash ./ServerStart.sh' | grep "$hostname" | grep -v grep\
   | while read -r pid etime cmd ; do
     echo "$pid $cmd $etime"
     subpid=`sudo ps -ef| awk '$3 == '$pid' { print $2 }'`
