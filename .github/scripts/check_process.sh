@@ -13,8 +13,7 @@ if [ -z "$list" ]; then
 else
  echo "running"
  echo $list
- uname -a
- ls -la 
+ echo "-kill>--------------------------------------"
  chmod +x ./.github/scripts/kill_process.sh
  ./.github/scripts/kill_process.sh "$hostname"  
  exit 0
