@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_hostname=${1:-''}
+hostname=${1:-''}
 
 list=`sudo ps aux | grep '/bin/bash ./ServerStart.sh' | grep "$hostname"`
 
