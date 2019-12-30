@@ -40,6 +40,7 @@ jobs:
       run: |
         uname -a
         git clone https://github.com/CoolZeroNL/minecraft-actions-scripts.git
+        git checkout -B master origin/master
         cp minecraft-actions-scripts/* ./.github/scripts
         
   _04-check-deploy:
