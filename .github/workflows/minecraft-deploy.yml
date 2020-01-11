@@ -5,8 +5,14 @@ name: "minecraft-deploy"
 on: push
    
 jobs:
-  _01-ci_skip:
+  _01-checkout:
     runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v1
+      
+  _02-ci_skip:
+    runs-on: self-hosted
+    needs: _01-checkout
     steps:
     - name: check deploy
       env:
@@ -24,17 +30,11 @@ jobs:
         else
           echo "the last commit log \"$last_commit_log\" contains \"$COMMIT_FILTER\", stopping"
           exit 78
-        fi    
-      
-  _02-checkout:
-    runs-on: self-hosted
-    needs: _01-ci_skip
-    steps:
-    - uses: actions/checkout@v1
+        fi   
 
   _03-get-scripts:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout]
+    needs: [_01-checkout,_02-ci_skip]
     steps:
     - name: check deploy
       run: |
@@ -45,7 +45,7 @@ jobs:
         
   _04-check-deploy:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout, _03-get-scripts]
+    needs: [_01-checkout,_02-ci_skip, _03-get-scripts]
     steps:
     - name: check deploy
       run: |
@@ -53,7 +53,7 @@ jobs:
 
   _05-check-connected:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout, _03-get-scripts, _04-check-deploy]
+    needs: [_01-checkout,_02-ci_skip, _03-get-scripts, _04-check-deploy]
     steps:
     - name: check deploy
       run: |
@@ -63,7 +63,7 @@ jobs:
 
   _06-check-process:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout, _03-get-scripts, _04-check-deploy, _05-check-connected]
+    needs: [_01-checkout,_02-ci_skip, _03-get-scripts, _04-check-deploy, _05-check-connected]
     steps:
     - name: check deploy
       continue-on-error: true
@@ -85,7 +85,7 @@ jobs:
        
   _07-backup-all:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process]
+    needs: [_01-checkout,_02-ci_skip, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process]
     steps:
     - name: check deploy
       env:
@@ -98,7 +98,7 @@ jobs:
 
   _08-backup-world:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all]
+    needs: [_01-checkout,_02-ci_skip, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all]
     steps:
     - name: check deploy
       env:
@@ -111,7 +111,7 @@ jobs:
         
   _09-deploy:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all, _08-backup-world]
+    needs: [_01-checkout,_02-ci_skip, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all, _08-backup-world]
     steps:
     - name: check deploy
       env:
@@ -123,7 +123,7 @@ jobs:
      
   _10-deploy-checks:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all, _08-backup-world, _09-deploy]
+    needs: [_01-checkout,_02-ci_skip, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all, _08-backup-world, _09-deploy]
     steps:
     - name: check deploy      
       run: |
@@ -131,7 +131,7 @@ jobs:
         
   _11-start-server:
     runs-on: self-hosted
-    needs: [_01-ci_skip, _02-checkout, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all, _08-backup-world, _09-deploy, _10-deploy-checks]
+    needs: [_01-checkout,_02-ci_skip, _03-get-scripts, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all, _08-backup-world, _09-deploy, _10-deploy-checks]
     steps:
     - name: check deploy
       env:
