@@ -1,0 +1,636 @@
+commit ef98b78ff1fba6c6a5333e98c09f0e284248b67a
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sat Jan 11 12:27:58 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 8a41a02..ea97bd0 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.35
++MCVER=1.15.1
++FORGEVER=30.0.36
+ FORGEURL=DISABLE
+  
+
+commit f0e96b70865874689278a3bf1f19fea72dcf80d2
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sat Jan 11 12:18:57 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 8a41a02..ea97bd0 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.35
++MCVER=1.15.1
++FORGEVER=30.0.36
+ FORGEURL=DISABLE
+  
+
+commit e108fa8552cfaf5d7fa04067a11385afbd641dd7
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sat Jan 11 12:09:57 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 8a41a02..ea97bd0 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.35
++MCVER=1.15.1
++FORGEVER=30.0.36
+ FORGEURL=DISABLE
+  
+
+commit 66840478ee985cb019cf9345e99041e511f71d3a
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sat Jan 11 12:00:59 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 8a41a02..ea97bd0 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.35
++MCVER=1.15.1
++FORGEVER=30.0.36
+ FORGEURL=DISABLE
+  
+
+commit 77328f0a310685225df29822ef0cbfa63d948da8
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sat Jan 11 11:51:57 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 8a41a02..ea97bd0 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.35
++MCVER=1.15.1
++FORGEVER=30.0.36
+ FORGEURL=DISABLE
+  
+
+commit c3038e45e628bd1e600a2aa12156f1f252400f2c
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sat Jan 11 11:42:57 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 8a41a02..ea97bd0 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.35
++MCVER=1.15.1
++FORGEVER=30.0.36
+ FORGEURL=DISABLE
+  
+
+commit d8b68420ab7b140969a9fe53b619634ada4baa4b
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sat Jan 11 11:33:57 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 8a41a02..ea97bd0 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.35
++MCVER=1.15.1
++FORGEVER=30.0.36
+ FORGEURL=DISABLE
+  
+
+commit da28b46954547c489944e062977e123f363473b3
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Thu Jan 9 17:39:12 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 899e99a..ea97bd0 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.35
++FORGEVER=30.0.36
+ FORGEURL=DISABLE
+  
+
+commit cc2a0d8e45338eb85c59337a3c6f8f0f2bd01a6a
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Tue Jan 7 18:06:09 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index c624b63..899e99a 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.33
++FORGEVER=30.0.35
+ FORGEURL=DISABLE
+  
+
+commit 2b03f178eb965f58d8059819d444bb46db8ecea2
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Tue Jan 7 17:31:07 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 05e0868..c624b63 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.32
++FORGEVER=30.0.33
+ FORGEURL=DISABLE
+  
+
+commit 021c4a060c06228fb403a3cfd1c7c804de73e85f
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Tue Jan 7 16:38:36 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index b288bee..05e0868 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.31
++FORGEVER=30.0.32
+ FORGEURL=DISABLE
+  
+
+commit d073f95388c682366d5c69175c8cf2d1cb5c95b1
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Tue Jan 7 16:29:45 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 340898d..b288bee 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.30
++FORGEVER=30.0.31
+ FORGEURL=DISABLE
+  
+
+commit 2bc47756c972fa4373fc0d96061572efd30e9a99
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Jan 5 19:12:11 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 7c6a432..340898d 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.29
++FORGEVER=30.0.30
+ FORGEURL=DISABLE
+  
+
+commit d75f0a28a8e0f4dc8e1abd4f3734baa5677b8adf
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Jan 5 14:44:01 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 595fad4..7c6a432 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.27
++FORGEVER=30.0.29
+ FORGEURL=DISABLE
+  
+
+commit 9892961911691db82c41ac2e25f4589e6b42390f
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Jan 5 13:51:30 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 37c08c2..595fad4 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.26
++FORGEVER=30.0.27
+ FORGEURL=DISABLE
+  
+
+commit 169620e8c5e14c35d6e0aa08aa54ef9132b6199a
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Jan 5 00:29:49 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 7f0273f..37c08c2 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.25
++FORGEVER=30.0.26
+ FORGEURL=DISABLE
+  
+
+commit f840911ed1fe96200491e7e0802dffd832e0f7c0
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Jan 5 00:02:49 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 95dc1b1..7f0273f 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.24
++FORGEVER=30.0.25
+ FORGEURL=DISABLE
+  
+
+commit 64a1f4d8b4d324bb6ea0a67545407e19230e39c1
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sat Jan 4 11:26:31 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index da1c22f..95dc1b1 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.22
++FORGEVER=30.0.24
+ FORGEURL=DISABLE
+  
+
+commit 14623ec544faa7ae7bf51519569955be3cd22676
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Thu Jan 2 22:14:22 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 8f8a769..da1c22f 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.21
++FORGEVER=30.0.22
+ FORGEURL=DISABLE
+  
+
+commit 4efca76a493c56f03fd6dbd61673ef9ac7e206a6
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Thu Jan 2 00:36:01 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 76bf2b2..8f8a769 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.20
++FORGEVER=30.0.21
+ FORGEURL=DISABLE
+  
+
+commit d75989bed7ae026a1f59389196be7b996d4c49a3
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Wed Jan 1 11:50:44 2020 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index acc91c1..76bf2b2 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.19
++FORGEVER=30.0.20
+ FORGEURL=DISABLE
+  
+
+commit 10680077b65309d9603c74897449cd36250dfbb5
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Mon Dec 30 16:28:44 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 7e4e429..acc91c1 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.18
++FORGEVER=30.0.19
+ FORGEURL=DISABLE
+  
+
+commit 3cedbd946405fbf2ad1c7ac5ba467219228d33d3
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Mon Dec 30 07:02:35 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 27cd73c..7e4e429 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.17
++MCVER=1.15.1
++FORGEVER=30.0.18
+ FORGEURL=DISABLE
+  
+
+commit 6bfd3fd2bb2f43db5a1f24749c7d6f550f339209
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Mon Dec 30 06:43:32 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 27cd73c..7e4e429 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.17
++MCVER=1.15.1
++FORGEVER=30.0.18
+ FORGEURL=DISABLE
+  
+
+commit 6e6da493b7ad7fb4b674b6b839cd3e747017c15f
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Mon Dec 30 06:25:30 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 27cd73c..7e4e429 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.17
++MCVER=1.15.1
++FORGEVER=30.0.18
+ FORGEURL=DISABLE
+  
+
+commit cd38026e6e304cd57516eab6f02b106d9288dfd4
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Dec 29 11:31:06 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index d29a203..7e4e429 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -24,6 +24,6 @@ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+ MCVER=1.15.1
+-FORGEVER=30.0.17
++FORGEVER=30.0.18
+ FORGEURL=DISABLE
+  
+
+commit c674badc2f6ff7d4bb22105817fee48c89109684
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Dec 29 06:07:14 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index f809a14..d29a203 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.16
++MCVER=1.15.1
++FORGEVER=30.0.17
+ FORGEURL=DISABLE
+  
+
+commit 2ff8d17afe506839a55ecdcffad1495209e49df9
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Dec 29 05:40:10 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index f809a14..d29a203 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.16
++MCVER=1.15.1
++FORGEVER=30.0.17
+ FORGEURL=DISABLE
+  
+
+commit da748dba9366a25e70b6e5864f70e526d21f14fc
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Sun Dec 29 05:29:50 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index f809a14..d29a203 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -23,7 +23,7 @@ JMX_HOST=127.0.0.1
+ PORT=25566
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.16
++MCVER=1.15.1
++FORGEVER=30.0.17
+ FORGEURL=DISABLE
+  
+
+commit 32ecb725085394cc1ee9839cd52355a9013a1614
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Wed Dec 25 07:07:55 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 640a926..8ead714 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -22,6 +22,6 @@ JMX_HOST=127.0.0.1
+ 
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.15
++MCVER=1.15.1
++FORGEVER=30.0.16
+ FORGEURL=DISABLE
+
+commit 1b02a1ec9273fb0e65d0d301329028d7be864ca5
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Wed Dec 25 07:03:38 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 640a926..8ead714 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -22,6 +22,6 @@ JMX_HOST=127.0.0.1
+ 
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.15
++MCVER=1.15.1
++FORGEVER=30.0.16
+ FORGEURL=DISABLE
+
+commit 796ed9b595ee51ff5f8d7d3e8fba4287a242d4cf
+Author: MinecraftAutoUpdater <mincecraft@legendsandmasters.nl>
+Date:   Wed Dec 25 06:54:19 2019 -0500
+
+    AutoUpdate
+
+diff --git a/settings.cfg b/settings.cfg
+index 640a926..8ead714 100644
+--- a/settings.cfg
++++ b/settings.cfg
+@@ -22,6 +22,6 @@ JMX_HOST=127.0.0.1
+ 
+ MODPACK_NAME=LAM4LIFE
+ DEFAULT_WORLD_TYPE=DEFAULT
+-MCVER=1.15.1
+-FORGEVER=30.0.15
++MCVER=1.15.1
++FORGEVER=30.0.16
+ FORGEURL=DISABLE
