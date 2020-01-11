@@ -6,4 +6,5 @@ FORGEVER=30.0.36
   <img width="100%" src="./plot.svg">
 </p>
 
-skip ?
+# Usage
+If u want to update this repo without running the `actions` use `skip-ci` in the commit description. (ps. wont work in the `extended descrription`)
