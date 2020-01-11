@@ -1,6 +1,6 @@
 MCVER=1.15.1
 
-FORGEVER=30.0.35
+FORGEVER=30.0.36
  
   
   
