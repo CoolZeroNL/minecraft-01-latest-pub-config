@@ -1,8 +1,9 @@
 # Current Version
 
-MCVER=1.15.1
+MCVER=1.15.1  
+FORGEVER=30.0.39  
 
-FORGEVER=30.0.39
+# Changes
 
 # History
 <p align="center">
