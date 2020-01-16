@@ -2,12 +2,12 @@
 
 MCVER=1.15.1
 
-FORGEVER=30.0.40
+FORGEVER=30.0.41
 
 # Changes
-Build: 1.15.1-30.0.40 - Thu Jan 16 00:30:10 GMT 2020  
-	12281102+Aeltumn:  
-		[1.15] Add new InputEvent.ClickInputEvent, addresses #5802 (#6047)  
+Build: 1.15.1-30.0.41 - Thu Jan 16 02:30:04 GMT 2020  
+	David Quintana:  
+		Fix breaking overlay weirdness. applyBakedNormals was not transforming the baked normals when applying them. Fixes #6432  
   
 # History
 <p align="center">
