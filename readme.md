@@ -2,14 +2,12 @@
 
 MCVER=1.15.1
 
-FORGEVER=30.0.39
+FORGEVER=30.0.40
 
 # Changes
-Build: 1.15.1-30.0.39 - Mon Jan 13 22:21:01 GMT 2020  
-	David Quintana:  
-		Fix dark spots in fullbright quad rendering.  
-		Fix multi-layer model not declaring dependency on the particle texture.  
-		Fix mistake in 2c054fca which I didn't intend to push when I did.  
+Build: 1.15.1-30.0.40 - Thu Jan 16 00:30:10 GMT 2020  
+	12281102+Aeltumn:  
+		[1.15] Add new InputEvent.ClickInputEvent, addresses #5802 (#6047)  
   
 # History
 <p align="center">
