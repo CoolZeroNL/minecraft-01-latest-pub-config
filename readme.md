@@ -2,12 +2,12 @@
 
 MCVER=1.15.1
 
-FORGEVER=30.0.41
+FORGEVER=30.0.42
 
 # Changes
-Build: 1.15.1-30.0.41 - Thu Jan 16 02:30:04 GMT 2020  
-	David Quintana:  
-		Fix breaking overlay weirdness. applyBakedNormals was not transforming the baked normals when applying them. Fixes #6432  
+Build: 1.15.1-30.0.42 - Tue Jan 21 03:47:02 GMT 2020  
+	tterrag:  
+		Remove emissive items hook, add small utility for bakedquad lighting  
   
 # History
 <p align="center">
