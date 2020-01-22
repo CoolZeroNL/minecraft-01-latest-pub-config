@@ -2,12 +2,12 @@
 
 MCVER=1.15.1
 
-FORGEVER=30.0.49
+FORGEVER=30.0.50
 
 # Changes
-Build: 1.15.1-30.0.49 - Wed Jan 22 19:56:16 GMT 2020  
-	lex:  
-		Fix default widget foreground color.  
+Build: 1.15.1-30.0.50 - Wed Jan 22 20:38:22 GMT 2020  
+	12281102+Aeltumn:  
+		Fixed parameter name issue in ISTER rename. #6461 (#6468)  
   
 # History
 <p align="center">
