@@ -2,12 +2,24 @@
 
 MCVER=1.15.1
 
-FORGEVER=30.0.42
+FORGEVER=30.0.48
 
 # Changes
-Build: 1.15.1-30.0.42 - Tue Jan 21 03:47:02 GMT 2020  
-	tterrag:  
-		Remove emissive items hook, add small utility for bakedquad lighting  
+Build: 1.15.1-30.0.48 - Wed Jan 22 19:30:35 GMT 2020  
+	diesieben07:  
+		Use extended version of getLightValue in all places (#6433)  
+  
+	Bward7864:  
+		Fixed RenderTypeLookup loosing mappings for registry replacements. (#6452)  
+  
+	wynprice999:  
+		Fixed rounding issue with entity navigation fix (#6455) (#6456)  
+  
+	37298044+Cadiboo:  
+		Fix Widget Foreground Color not allowing pure black (#6460)  
+  
+	12281102+Aeltumn:  
+		Updated method names referencing ItemStackTileEntityRenderer (#6461)  
   
 # History
 <p align="center">
