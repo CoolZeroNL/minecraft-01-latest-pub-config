@@ -2,24 +2,12 @@
 
 MCVER=1.15.1
 
-FORGEVER=30.0.48
+FORGEVER=30.0.49
 
 # Changes
-Build: 1.15.1-30.0.48 - Wed Jan 22 19:30:35 GMT 2020  
-	diesieben07:  
-		Use extended version of getLightValue in all places (#6433)  
-  
-	Bward7864:  
-		Fixed RenderTypeLookup loosing mappings for registry replacements. (#6452)  
-  
-	wynprice999:  
-		Fixed rounding issue with entity navigation fix (#6455) (#6456)  
-  
-	37298044+Cadiboo:  
-		Fix Widget Foreground Color not allowing pure black (#6460)  
-  
-	12281102+Aeltumn:  
-		Updated method names referencing ItemStackTileEntityRenderer (#6461)  
+Build: 1.15.1-30.0.49 - Wed Jan 22 19:56:16 GMT 2020  
+	lex:  
+		Fix default widget foreground color.  
   
 # History
 <p align="center">
