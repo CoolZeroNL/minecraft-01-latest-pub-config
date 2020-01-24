@@ -129,7 +129,18 @@ jobs:
     - name: check deploy      
       run: |
         uname -a
-        
+        ls -la
+        FORGEVER_installed=`sudo grep FORGEVER /home/minecraft/deployed/minecraft-01-latest/settings.cfg | awk -F"=" {'print $2'}`
+        FORGEVER_git=`sudo grep FORGEVER settings.cfg | awk -F"=" {'print $2'}`
+        echo $FORGEVER_installed
+        echo $FORGEVER_git
+        if [ "$FORGEVER_installed" == "$FORGEVER_git" ]; then
+          echo "Deployment oke"
+        else
+          echo "Deployment Failed."
+          exit 1
+        fi
+              
   _11-start-server:
     runs-on: self-hosted
     needs: [_01-checkout, _02-get-scripts, _03-ci_skip, _04-check-deploy, _05-check-connected, _06-check-process, _07-backup-all, _08-backup-world, _09-deploy, _10-deploy-checks]
@@ -140,7 +151,6 @@ jobs:
         FOLDER: "minecraft-01-latest"              
       run: |
         uname -a
-        
         sudo cd /home/minecraft/deployed/"$FOLDER"/
         # sudo su minecraft -c "cd /home/minecraft/deployed/"$FOLDER"/; /bin/bash"
         sudo runuser -l  minecraft -c "cd /home/minecraft/deployed/"$FOLDER"/; nohup ./ServerStart.sh -a "$HOSTNAME" > /dev/null 2>&1 & echo $! > "$FOLDER".pid"
