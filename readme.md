@@ -2,15 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.11
+FORGEVER=31.0.12
 
 # Changes
-Build: 1.15.2-31.0.11 - Wed Jan 29 21:18:05 GMT 2020  
-	12281102+Aeltumn:  
-		Fix RightClickBlock code differences between client and server implementation (#6451)  
-  
-	williewillus:  
-		Fix incorrectly ported patch for restoreBlurMipmap (#6450)  
+Build: 1.15.2-31.0.12 - Wed Jan 29 21:55:18 GMT 2020  
+	Barteks2x:  
+		Fix NullPointerException on java 8u242 in dev environment. (#6473)  
+		  
+		Java 8u242 no longer re-initializes internal sys_paths and usr_paths fields in loadLibrary when they are null, so the value can't be set to null.  
   
 # History
 <p align="center">
