@@ -2,12 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.2
+FORGEVER=31.0.4
 
 # Changes
-Build: 1.15.2-31.0.2 - Wed Jan 29 17:26:58 GMT 2020  
-	goto.minecraft:  
-		[1.15] Reimplemented the ITeleporter interface (#6404)  
+Build: 1.15.2-31.0.4 - Wed Jan 29 19:31:50 GMT 2020  
+	lex:  
+		Fix WakeupEvent patch misalign. Closes #6474  
+  
+	lex:  
+		Fix default mod resources loosing it's sort order.  
   
 # History
 <p align="center">
