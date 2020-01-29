@@ -2,14 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.12
+FORGEVER=31.0.13
 
 # Changes
-Build: 1.15.2-31.0.12 - Wed Jan 29 21:55:18 GMT 2020  
-	Barteks2x:  
-		Fix NullPointerException on java 8u242 in dev environment. (#6473)  
+Build: 1.15.2-31.0.13 - Wed Jan 29 23:46:30 GMT 2020  
+	williewillus:  
+		Clean up a bunch of render events (#6444)  
 		  
-		Java 8u242 no longer re-initializes internal sys_paths and usr_paths fields in loadLibrary when they are null, so the value can't be set to null.  
+		* Delete RenderHandEvent as RenderSpecificHandEvent can do everything it does and more. Rename RenderSpecificHandEvent to RenderHandEvent as it's now the only hand rendering event.  
+		* Pass MatrixStack and IRenderTypeBuffer into the event whenever they are available. If they're available, that means we're in a batching environment and the modder should not be using the tessellator or other buffers on their own, or they risk "Already building" crashes.  
   
 # History
 <p align="center">
