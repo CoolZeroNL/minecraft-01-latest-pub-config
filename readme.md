@@ -2,18 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.7
+FORGEVER=31.0.9
 
 # Changes
-Build: 1.15.2-31.0.7 - Wed Jan 29 20:50:44 GMT 2020  
-	lex:  
-		Fix PlayerChangedDimensionEvent using incorrect from dimension argument in ServerPlayerEntity.teleport. Closes #6457  
-  
-	lex:  
-		Fix incorrect keybinding modifiers patch. Closes #6478  
-  
-	lex:  
-		Fix ChunkDataEvent.Load not firing, it now fires in the aync thread. Be careful. Closes #6471  
+Build: 1.15.2-31.0.9 - Wed Jan 29 21:11:24 GMT 2020  
+	40495288+Yamahari:  
+		Defer material getting for ChestTileEntityRenderer into seperate function (#6465)  
   
 # History
 <p align="center">
