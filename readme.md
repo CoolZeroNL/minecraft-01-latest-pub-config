@@ -2,15 +2,18 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.4
+FORGEVER=31.0.7
 
 # Changes
-Build: 1.15.2-31.0.4 - Wed Jan 29 19:31:50 GMT 2020  
+Build: 1.15.2-31.0.7 - Wed Jan 29 20:50:44 GMT 2020  
 	lex:  
-		Fix WakeupEvent patch misalign. Closes #6474  
+		Fix PlayerChangedDimensionEvent using incorrect from dimension argument in ServerPlayerEntity.teleport. Closes #6457  
   
 	lex:  
-		Fix default mod resources loosing it's sort order.  
+		Fix incorrect keybinding modifiers patch. Closes #6478  
+  
+	lex:  
+		Fix ChunkDataEvent.Load not firing, it now fires in the aync thread. Be careful. Closes #6471  
   
 # History
 <p align="center">
