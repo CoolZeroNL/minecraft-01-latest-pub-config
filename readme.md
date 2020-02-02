@@ -2,14 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.14
+FORGEVER=31.0.15
 
 # Changes
-Build: 1.15.2-31.0.14 - Thu Jan 30 06:12:15 GMT 2020  
-	DaemonUmbra:  
-		Fixed Attacks/Punches not Registering (#6481)  
-		  
-		Replaced incorrect magic number with constant  
+Build: 1.15.2-31.0.15 - Sun Feb 02 22:03:15 GMT 2020  
+	David Quintana:  
+		Implement fluid overlay texture rendering for custom fluids.  
   
 # History
 <p align="center">
