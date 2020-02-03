@@ -2,12 +2,17 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.17
+FORGEVER=31.0.19
 
 # Changes
-Build: 1.15.2-31.0.17 - Mon Feb 03 20:21:20 GMT 2020  
-	ichttt:  
-		Revert game data to frozen on disconnect from a remote server or when terminating a local server. Closes #6487 (#6497)  
+Build: 1.15.2-31.0.19 - Mon Feb 03 20:52:28 GMT 2020  
+	richard:  
+		Add FluidStack support to the Forge packet buffer. (#6353) (#6485)  
+  
+	richard:  
+		Make Minecarts work with modded powered/activator rails. (#6486)  
+		  
+		Re-adds functionality for rails to have different maximum speeds.  
   
 # History
 <p align="center">
