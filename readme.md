@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.16
+FORGEVER=31.0.17
 
 # Changes
-Build: 1.15.2-31.0.16 - Sun Feb 02 22:11:19 GMT 2020  
-	David Quintana:  
-		Remove unintended changes.  
+Build: 1.15.2-31.0.17 - Mon Feb 03 20:21:20 GMT 2020  
+	ichttt:  
+		Revert game data to frozen on disconnect from a remote server or when terminating a local server. Closes #6487 (#6497)  
   
 # History
 <p align="center">
