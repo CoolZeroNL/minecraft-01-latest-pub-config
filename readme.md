@@ -2,17 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.0.19
+FORGEVER=31.1.0
 
 # Changes
-Build: 1.15.2-31.0.19 - Mon Feb 03 20:52:28 GMT 2020  
-	richard:  
-		Add FluidStack support to the Forge packet buffer. (#6353) (#6485)  
-  
-	richard:  
-		Make Minecarts work with modded powered/activator rails. (#6486)  
-		  
-		Re-adds functionality for rails to have different maximum speeds.  
+Build: 1.15.2-31.1.0 - Mon Feb 03 21:24:29 GMT 2020  
+	lex:  
+		Fix a small patch misalignment.  
   
 # History
 <p align="center">
