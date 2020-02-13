@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.0
+FORGEVER=31.1.1
 
 # Changes
-Build: 1.15.2-31.1.0 - Mon Feb 03 21:24:29 GMT 2020  
-	lex:  
-		Fix a small patch misalignment.  
+Build: 1.15.2-31.1.1 - Thu Feb 06 22:53:49 GMT 2020  
+	richard:  
+		Allows custom blocks to define if they should use the fluid overlay instead of the flowing texture when in a fluid (#6493)  
   
 # History
 <p align="center">
