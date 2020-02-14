@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.11
+FORGEVER=31.1.12
 
 # Changes
-Build: 1.15.2-31.1.11 - Fri Feb 14 21:33:36 GMT 2020  
+Build: 1.15.2-31.1.12 - Fri Feb 14 21:43:40 GMT 2020  
 	williewillus:  
-		Fix missed modeldata passing in BlockModelRenderer (#6442)  
+		Fix missing call to itemstack TER (#6445)  
   
 # History
 <p align="center">
