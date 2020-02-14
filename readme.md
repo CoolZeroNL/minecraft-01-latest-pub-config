@@ -2,12 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.3
+FORGEVER=31.1.5
 
 # Changes
-Build: 1.15.2-31.1.3 - Fri Feb 14 19:55:38 GMT 2020  
-	hawkeboyz2:  
-		Fixed displaying item names when only more sensitive version changes (#6402)  
+Build: 1.15.2-31.1.5 - Fri Feb 14 20:02:26 GMT 2020  
+	joetarbit:  
+		Fixed Food not using effect suppliers, to better support delayed initialization and registry replacements. (#6411)  
+  
+	Unnoen:  
+		Update version and support data on README. (#6429)  
   
 # History
 <p align="center">
