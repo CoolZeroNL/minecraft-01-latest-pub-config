@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.1
+FORGEVER=31.1.2
 
 # Changes
-Build: 1.15.2-31.1.1 - Thu Feb 06 22:53:49 GMT 2020  
-	richard:  
-		Allows custom blocks to define if they should use the fluid overlay instead of the flowing texture when in a fluid (#6493)  
+Build: 1.15.2-31.1.2 - Fri Feb 14 18:28:35 GMT 2020  
+	David Quintana:  
+		Fix gui_light for forge's item parent models.  
   
 # History
 <p align="center">
