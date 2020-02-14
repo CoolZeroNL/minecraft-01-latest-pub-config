@@ -2,15 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.5
+FORGEVER=31.1.9
 
 # Changes
-Build: 1.15.2-31.1.5 - Fri Feb 14 20:02:26 GMT 2020  
-	joetarbit:  
-		Fixed Food not using effect suppliers, to better support delayed initialization and registry replacements. (#6411)  
-  
-	Unnoen:  
-		Update version and support data on README. (#6429)  
+Build: 1.15.2-31.1.9 - Fri Feb 14 20:16:05 GMT 2020  
+	loic.frasse-mathon:  
+		Fix a wrong RenderState name MC-167447 (#6501)  
   
 # History
 <p align="center">
