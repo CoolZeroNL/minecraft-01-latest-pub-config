@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.2
+FORGEVER=31.1.3
 
 # Changes
-Build: 1.15.2-31.1.2 - Fri Feb 14 18:28:35 GMT 2020  
-	David Quintana:  
-		Fix gui_light for forge's item parent models.  
+Build: 1.15.2-31.1.3 - Fri Feb 14 19:55:38 GMT 2020  
+	hawkeboyz2:  
+		Fixed displaying item names when only more sensitive version changes (#6402)  
   
 # History
 <p align="center">
