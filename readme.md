@@ -2,12 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.12
+FORGEVER=31.1.13
 
 # Changes
-Build: 1.15.2-31.1.12 - Fri Feb 14 21:43:40 GMT 2020  
-	williewillus:  
-		Fix missing call to itemstack TER (#6445)  
+Build: 1.15.2-31.1.13 - Mon Feb 17 16:16:56 GMT 2020  
+	richard:  
+		Fix ITeleporter being ignored when teleporting from the end to the overworld (#6505)  
+		  
+		* Fix custom teleporters triggering end credits when returning from the end  
+		* Fix setdimension command ignoring position  
   
 # History
 <p align="center">
