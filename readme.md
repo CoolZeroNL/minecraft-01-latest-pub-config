@@ -2,15 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.13
+FORGEVER=31.1.14
 
 # Changes
-Build: 1.15.2-31.1.13 - Mon Feb 17 16:16:56 GMT 2020  
-	richard:  
-		Fix ITeleporter being ignored when teleporting from the end to the overworld (#6505)  
-		  
-		* Fix custom teleporters triggering end credits when returning from the end  
-		* Fix setdimension command ignoring position  
+Build: 1.15.2-31.1.14 - Mon Feb 17 19:01:48 GMT 2020  
+	DaemonUmbra:  
+		Fixed Conduit and Beacon Activation on Vanilla Servers (#6438)  
   
 # History
 <p align="center">
