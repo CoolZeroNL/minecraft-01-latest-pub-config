@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.14
+FORGEVER=31.1.15
 
 # Changes
-Build: 1.15.2-31.1.14 - Mon Feb 17 19:01:48 GMT 2020  
-	DaemonUmbra:  
-		Fixed Conduit and Beacon Activation on Vanilla Servers (#6438)  
+Build: 1.15.2-31.1.15 - Sun Feb 23 17:32:42 GMT 2020  
+	julian.dunskus:  
+		Make TransformationHelper.slerp for quaternions public (#6528)  
   
 # History
 <p align="center">
