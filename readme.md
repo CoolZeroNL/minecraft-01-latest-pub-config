@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.17
+FORGEVER=31.1.18
 
 # Changes
-Build: 1.15.2-31.1.17 - Wed Feb 26 03:45:24 GMT 2020  
-	DaemonUmbra:  
-		Updated ForgeDev MCP Mapping Version (#6532)  
+Build: 1.15.2-31.1.18 - Thu Feb 27 06:13:47 GMT 2020  
+	draco18s:  
+		Global Loot Functions (#6401)  
   
 # History
 <p align="center">
