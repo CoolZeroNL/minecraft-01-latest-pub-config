@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.18
+FORGEVER=31.1.19
 
 # Changes
-Build: 1.15.2-31.1.18 - Thu Feb 27 06:13:47 GMT 2020  
-	draco18s:  
-		Global Loot Functions (#6401)  
+Build: 1.15.2-31.1.19 - Wed Mar 11 07:00:30 GMT 2020  
+	17338378+Nightenom:  
+		Add projection matrix to RenderWorldLastEvent (#6536)  
   
 # History
 <p align="center">
