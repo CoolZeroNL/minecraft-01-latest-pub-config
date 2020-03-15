@@ -2,15 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.20
+FORGEVER=31.1.21
 
 # Changes
-Build: 1.15.2-31.1.20 - Sun Mar 15 03:29:03 GMT 2020  
-	cpw:  
-		Somewhat restore the loading screen overlay. It seems that once the mojang logo and progress bar  
-		start running, I can no longer write to the window, even though I am obviously trying to..  
-		  
-		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
+Build: 1.15.2-31.1.21 - Sun Mar 15 07:28:02 GMT 2020  
+	tterrag:  
+		Fix loading GUI corrupting matrix state  
   
 # History
 <p align="center">
