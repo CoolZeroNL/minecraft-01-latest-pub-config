@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.21
+FORGEVER=31.1.22
 
 # Changes
-Build: 1.15.2-31.1.21 - Sun Mar 15 07:28:02 GMT 2020  
+Build: 1.15.2-31.1.22 - Sun Mar 15 07:39:18 GMT 2020  
 	tterrag:  
-		Fix loading GUI corrupting matrix state  
+		Fix loading text not rendering after mojang logo appears  
   
 # History
 <p align="center">
