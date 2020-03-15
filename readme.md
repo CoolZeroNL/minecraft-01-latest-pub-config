@@ -2,14 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.23
+FORGEVER=31.1.24
 
 # Changes
-Build: 1.15.2-31.1.23 - Sun Mar 15 20:55:21 GMT 2020  
+Build: 1.15.2-31.1.24 - Sun Mar 15 23:28:36 GMT 2020  
 	lex:  
-		Update gradle wrapper  
-		Update MCPConfig to version that bypasses javac compiler bugs  
-		Fix Global loot test compile errors.  
+		Fix Forge's tps and gen commands.  
   
 # History
 <p align="center">
