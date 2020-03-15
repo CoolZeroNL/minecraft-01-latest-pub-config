@@ -2,12 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.19
+FORGEVER=31.1.20
 
 # Changes
-Build: 1.15.2-31.1.19 - Wed Mar 11 07:00:30 GMT 2020  
-	17338378+Nightenom:  
-		Add projection matrix to RenderWorldLastEvent (#6536)  
+Build: 1.15.2-31.1.20 - Sun Mar 15 03:29:03 GMT 2020  
+	cpw:  
+		Somewhat restore the loading screen overlay. It seems that once the mojang logo and progress bar  
+		start running, I can no longer write to the window, even though I am obviously trying to..  
+		  
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
 # History
 <p align="center">
