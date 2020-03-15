@@ -2,12 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.22
+FORGEVER=31.1.23
 
 # Changes
-Build: 1.15.2-31.1.22 - Sun Mar 15 07:39:18 GMT 2020  
-	tterrag:  
-		Fix loading text not rendering after mojang logo appears  
+Build: 1.15.2-31.1.23 - Sun Mar 15 20:55:21 GMT 2020  
+	lex:  
+		Update gradle wrapper  
+		Update MCPConfig to version that bypasses javac compiler bugs  
+		Fix Global loot test compile errors.  
   
 # History
 <p align="center">
