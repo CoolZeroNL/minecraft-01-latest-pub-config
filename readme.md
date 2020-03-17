@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.24
+FORGEVER=31.1.25
 
 # Changes
-Build: 1.15.2-31.1.24 - Sun Mar 15 23:28:36 GMT 2020  
-	lex:  
-		Fix Forge's tps and gen commands.  
+Build: 1.15.2-31.1.25 - Tue Mar 17 09:41:49 GMT 2020  
+	bjfccb:  
+		Remove ArrowEntity patch, vanilla fixed MC-107941  
   
 # History
 <p align="center">
