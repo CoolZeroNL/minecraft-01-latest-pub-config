@@ -2,12 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.25
+FORGEVER=31.1.26
 
 # Changes
-Build: 1.15.2-31.1.25 - Tue Mar 17 09:41:49 GMT 2020  
-	bjfccb:  
-		Remove ArrowEntity patch, vanilla fixed MC-107941  
+Build: 1.15.2-31.1.26 - Fri Mar 20 21:35:06 GMT 2020  
+	cpw:  
+		Add a progress message for atlas textures. Fills a big time gap on bigger packs.  
+		  
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
 # History
 <p align="center">
