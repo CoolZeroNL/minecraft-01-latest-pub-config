@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.26
+FORGEVER=31.1.27
 
 # Changes
-Build: 1.15.2-31.1.26 - Fri Mar 20 21:35:06 GMT 2020  
+Build: 1.15.2-31.1.27 - Sat Mar 21 00:06:03 GMT 2020  
 	cpw:  
-		Add a progress message for atlas textures. Fills a big time gap on bigger packs.  
+		Fix cycle happening in noteblock even though we're setting the new value as well..  
 		  
 		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
