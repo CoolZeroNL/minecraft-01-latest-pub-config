@@ -2,14 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.28
+FORGEVER=31.1.30
 
 # Changes
-Build: 1.15.2-31.1.28 - Fri Mar 27 23:10:32 GMT 2020  
-	36975818+hnOsmium0001:  
-		Fix ownership leak in ItemStackHandler (#6580)  
-		  
-		- Triggered by invoking ItemStackHandler#extractItem with `simulate=true`  
+Build: 1.15.2-31.1.30 - Fri Mar 27 23:26:45 GMT 2020  
+	naqaden:  
+		Add renderer to RenderNameplateEvent (#6562)  
   
 # History
 <p align="center">
