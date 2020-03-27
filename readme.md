@@ -2,14 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.27
+FORGEVER=31.1.28
 
 # Changes
-Build: 1.15.2-31.1.27 - Sat Mar 21 00:06:03 GMT 2020  
-	cpw:  
-		Fix cycle happening in noteblock even though we're setting the new value as well..  
+Build: 1.15.2-31.1.28 - Fri Mar 27 23:10:32 GMT 2020  
+	36975818+hnOsmium0001:  
+		Fix ownership leak in ItemStackHandler (#6580)  
 		  
-		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
+		- Triggered by invoking ItemStackHandler#extractItem with `simulate=true`  
   
 # History
 <p align="center">
