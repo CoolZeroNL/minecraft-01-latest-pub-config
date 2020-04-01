@@ -2,18 +2,18 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.32
+FORGEVER=31.1.34
 
 # Changes
-Build: 1.15.2-31.1.32 - Tue Mar 31 23:57:39 GMT 2020  
+Build: 1.15.2-31.1.34 - Wed Apr 01 00:16:26 GMT 2020  
 	tterrag:  
-		Deprecate ModelBuilder#gui3d, add ModelBuilder#guiLight  
+		Add support for optional tag values to Tag.Builder  
+		  
+		Add optional tag values to data gen test  
+		Fix data gen test not running by correcting gui_light value  
   
 	tterrag:  
-		Fix a few issues with BufferBuilder  
-		  
-		Fix vanilla bug that caused the byte order of the buffer from getNextBuffer to be incorrect  
-		Fix missing modification to nextElementBytes in putBulkData  
+		Move global loot test data files out of generated folder  
   
 # History
 <p align="center">
