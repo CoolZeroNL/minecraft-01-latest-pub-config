@@ -2,12 +2,18 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.30
+FORGEVER=31.1.32
 
 # Changes
-Build: 1.15.2-31.1.30 - Fri Mar 27 23:26:45 GMT 2020  
-	naqaden:  
-		Add renderer to RenderNameplateEvent (#6562)  
+Build: 1.15.2-31.1.32 - Tue Mar 31 23:57:39 GMT 2020  
+	tterrag:  
+		Deprecate ModelBuilder#gui3d, add ModelBuilder#guiLight  
+  
+	tterrag:  
+		Fix a few issues with BufferBuilder  
+		  
+		Fix vanilla bug that caused the byte order of the buffer from getNextBuffer to be incorrect  
+		Fix missing modification to nextElementBytes in putBulkData  
   
 # History
 <p align="center">
