@@ -2,18 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.34
+FORGEVER=31.1.35
 
 # Changes
-Build: 1.15.2-31.1.34 - Wed Apr 01 00:16:26 GMT 2020  
-	tterrag:  
-		Add support for optional tag values to Tag.Builder  
-		  
-		Add optional tag values to data gen test  
-		Fix data gen test not running by correcting gui_light value  
-  
-	tterrag:  
-		Move global loot test data files out of generated folder  
+Build: 1.15.2-31.1.35 - Wed Apr 01 19:38:28 GMT 2020  
+	lex:  
+		Cleanup IForgeTagBuilder code style.  
   
 # History
 <p align="center">
