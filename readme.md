@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.35
+FORGEVER=31.1.36
 
 # Changes
-Build: 1.15.2-31.1.35 - Wed Apr 01 19:38:28 GMT 2020  
-	lex:  
-		Cleanup IForgeTagBuilder code style.  
+Build: 1.15.2-31.1.36 - Sat Apr 04 19:36:37 GMT 2020  
+	tterrag:  
+		Remove SideOnly from WoodType methods  
   
 # History
 <p align="center">
