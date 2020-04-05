@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.36
+FORGEVER=31.1.37
 
 # Changes
-Build: 1.15.2-31.1.36 - Sat Apr 04 19:36:37 GMT 2020  
+Build: 1.15.2-31.1.37 - Sun Apr 05 04:50:22 GMT 2020  
 	tterrag:  
-		Remove SideOnly from WoodType methods  
+		Fix Tag serializing empty optionals, improve RegistryObject error msg  
   
 # History
 <p align="center">
