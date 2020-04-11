@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.42
+FORGEVER=31.1.43
 
 # Changes
-Build: 1.15.2-31.1.42 - Sat Apr 11 05:20:15 GMT 2020  
+Build: 1.15.2-31.1.43 - Sat Apr 11 06:03:58 GMT 2020  
 	tterrag:  
-		Fix element type of scanned child annotations  
+		Fix child annotations not inheriting member name, cleanup  
   
 # History
 <p align="center">
