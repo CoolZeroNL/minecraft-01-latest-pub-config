@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.41
+FORGEVER=31.1.42
 
 # Changes
-Build: 1.15.2-31.1.41 - Thu Apr 09 00:19:35 GMT 2020  
-	28677702+patrick-aoc:  
-		Fixed PlantType not extending IExtensibleEnum, Closes #6286  
+Build: 1.15.2-31.1.42 - Sat Apr 11 05:20:15 GMT 2020  
+	tterrag:  
+		Fix element type of scanned child annotations  
   
 # History
 <p align="center">
