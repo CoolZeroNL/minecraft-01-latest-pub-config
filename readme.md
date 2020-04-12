@@ -2,12 +2,16 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.43
+FORGEVER=31.1.44
 
 # Changes
-Build: 1.15.2-31.1.43 - Sat Apr 11 06:03:58 GMT 2020  
-	tterrag:  
-		Fix child annotations not inheriting member name, cleanup  
+Build: 1.15.2-31.1.44 - Sun Apr 12 19:27:19 GMT 2020  
+	David Quintana:  
+		Add "type" field to global loot modifier jsons. (#6554)  
+		  
+		* Add "type" field to global loot modifier jsons and fix tests.  
+		To avoid binary breaking, "type" defaults to be the same as the filename.  
+		* Fix license headers.  
   
 # History
 <p align="center">
