@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.45
+FORGEVER=31.1.46
 
 # Changes
-Build: 1.15.2-31.1.45 - Wed Apr 15 06:54:47 GMT 2020  
+Build: 1.15.2-31.1.46 - Wed Apr 15 17:10:05 GMT 2020  
 	lex:  
-		Fixed dev time compilation using J9+ producing incorrect bytecode.  
+		Revert defualt jvm args.  
   
 # History
 <p align="center">
