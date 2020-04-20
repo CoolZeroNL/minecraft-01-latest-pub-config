@@ -2,12 +2,16 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.46
+FORGEVER=31.1.47
 
 # Changes
-Build: 1.15.2-31.1.46 - Wed Apr 15 17:10:05 GMT 2020  
-	lex:  
-		Revert defualt jvm args.  
+Build: 1.15.2-31.1.47 - Mon Apr 20 01:37:16 GMT 2020  
+	cpw:  
+		Fix recursion mess in PlayerAdvancement loading, by using an alternative based on a toposorted list of all advancements.  
+		It seems to be fully equivalent in testing, but there may be corner cases, so there is a config to disable, though disabling  
+		may break servers, especially those chunkloading fake players.  
+		  
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
 # History
 <p align="center">
