@@ -2,16 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.47
+FORGEVER=31.1.48
 
 # Changes
-Build: 1.15.2-31.1.47 - Mon Apr 20 01:37:16 GMT 2020  
-	cpw:  
-		Fix recursion mess in PlayerAdvancement loading, by using an alternative based on a toposorted list of all advancements.  
-		It seems to be fully equivalent in testing, but there may be corner cases, so there is a config to disable, though disabling  
-		may break servers, especially those chunkloading fake players.  
-		  
-		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
+Build: 1.15.2-31.1.48 - Thu Apr 23 12:57:42 GMT 2020  
+	David Quintana:  
+		Add tickRate setter to the ForgeFlowingFluid Properties builder.  
   
 # History
 <p align="center">
