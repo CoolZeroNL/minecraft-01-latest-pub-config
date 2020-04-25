@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.48
+FORGEVER=31.1.49
 
 # Changes
-Build: 1.15.2-31.1.48 - Thu Apr 23 12:57:42 GMT 2020  
-	David Quintana:  
-		Add tickRate setter to the ForgeFlowingFluid Properties builder.  
+Build: 1.15.2-31.1.49 - Sat Apr 25 02:19:14 GMT 2020  
+	lex:  
+		Fix potential NPEs in RegistryObject.orElseThrow/isPresent/ifPresent Closes #6647  
   
 # History
 <p align="center">
