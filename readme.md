@@ -2,12 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.49
+FORGEVER=31.1.50
 
 # Changes
-Build: 1.15.2-31.1.49 - Sat Apr 25 02:19:14 GMT 2020  
-	lex:  
-		Fix potential NPEs in RegistryObject.orElseThrow/isPresent/ifPresent Closes #6647  
+Build: 1.15.2-31.1.50 - Sat Apr 25 21:55:22 GMT 2020  
+	cpw:  
+		Update jenkinsfile and gradle for new versions of things..  
+		  
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
 # History
 <p align="center">
