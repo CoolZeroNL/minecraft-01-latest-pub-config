@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.50
+FORGEVER=31.1.51
 
 # Changes
-Build: 1.15.2-31.1.50 - Sat Apr 25 21:55:22 GMT 2020  
+Build: 1.15.2-31.1.51 - Sun Apr 26 22:25:05 GMT 2020  
 	cpw:  
-		Update jenkinsfile and gradle for new versions of things..  
+		merge early startup into main window if used. It seems to work well.. Also ticks window on main thread, so mac compatible now.  
 		  
 		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
