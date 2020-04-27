@@ -2,15 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.57
+FORGEVER=31.1.59
 
 # Changes
-Build: 1.15.2-31.1.57 - Mon Apr 27 03:06:13 GMT 2020  
-	lex:  
-		Fix Automatic Event Subscriber not detecting mod id defaults, and fix test mods.  
+Build: 1.15.2-31.1.59 - Mon Apr 27 05:10:06 GMT 2020  
+	tterrag:  
+		Fix VariantList calling deprecated bake method  
   
-	lex:  
-		Fix resource packs not being sorted properly. Closes #6287  
+	tterrag:  
+		Rename window icon image to avoid conflict, fix not using vanilla icon  
   
 # History
 <p align="center">
