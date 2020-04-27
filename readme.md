@@ -2,14 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.60
+FORGEVER=31.1.61
 
 # Changes
-Build: 1.15.2-31.1.60 - Mon Apr 27 13:55:33 GMT 2020  
-	cpw:  
-		Remove silly icon override. Squirrels are fun y'all..  
-		  
-		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
+Build: 1.15.2-31.1.61 - Mon Apr 27 18:06:44 GMT 2020  
+	weiland:  
+		Fix BackgroundScanHandler crashing on servers (#6660)  
   
 # History
 <p align="center">
