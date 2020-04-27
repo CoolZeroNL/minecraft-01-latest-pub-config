@@ -2,26 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.55
+FORGEVER=31.1.57
 
 # Changes
-Build: 1.15.2-31.1.55 - Mon Apr 27 01:42:42 GMT 2020  
-	roguelogix:  
-		move handOffWindow down near start()  
+Build: 1.15.2-31.1.57 - Mon Apr 27 03:06:13 GMT 2020  
+	lex:  
+		Fix Automatic Event Subscriber not detecting mod id defaults, and fix test mods.  
   
-	roguelogix:  
-		Move ClientVisualization to secondary thread  
-  
-	cpw:  
-		Handle message display a bit better, try to make the UI tick a bit better.. Still a problem with  
-		a modelbake right at the end, happening on the window flip.  
-		  
-		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
-  
-	cpw:  
-		Use forge logo as short term window Icon, fix Buffer cast problems for new JDK stupid.  
-		  
-		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
+	lex:  
+		Fix resource packs not being sorted properly. Closes #6287  
   
 # History
 <p align="center">
