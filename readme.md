@@ -2,15 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.59
+FORGEVER=31.1.60
 
 # Changes
-Build: 1.15.2-31.1.59 - Mon Apr 27 05:10:06 GMT 2020  
-	tterrag:  
-		Fix VariantList calling deprecated bake method  
-  
-	tterrag:  
-		Rename window icon image to avoid conflict, fix not using vanilla icon  
+Build: 1.15.2-31.1.60 - Mon Apr 27 13:55:33 GMT 2020  
+	cpw:  
+		Remove silly icon override. Squirrels are fun y'all..  
+		  
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
 # History
 <p align="center">
