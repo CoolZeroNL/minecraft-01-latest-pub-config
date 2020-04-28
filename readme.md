@@ -2,12 +2,16 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.61
+FORGEVER=31.1.62
 
 # Changes
-Build: 1.15.2-31.1.61 - Mon Apr 27 18:06:44 GMT 2020  
-	weiland:  
-		Fix BackgroundScanHandler crashing on servers (#6660)  
+Build: 1.15.2-31.1.62 - Tue Apr 28 04:02:06 GMT 2020  
+	tterrag:  
+		Fix various issues with the loading screen and datagen  
+		  
+		Fix NPE on datagen startup  
+		Fix early loading GUI hanging and never terminating after datagen  
+		Add loading GUI messages for datagen  
   
 # History
 <p align="center">
