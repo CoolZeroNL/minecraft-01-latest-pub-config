@@ -2,16 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.62
+FORGEVER=31.1.63
 
 # Changes
-Build: 1.15.2-31.1.62 - Tue Apr 28 04:02:06 GMT 2020  
-	tterrag:  
-		Fix various issues with the loading screen and datagen  
-		  
-		Fix NPE on datagen startup  
-		Fix early loading GUI hanging and never terminating after datagen  
-		Add loading GUI messages for datagen  
+Build: 1.15.2-31.1.63 - Tue Apr 28 17:23:47 GMT 2020  
+	David Quintana:  
+		Remove redundant call to modifyLoot. Closes #6657  
   
 # History
 <p align="center">
