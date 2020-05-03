@@ -2,18 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.70
+FORGEVER=31.1.71
 
 # Changes
-Build: 1.15.2-31.1.70 - Sun May 03 20:27:39 GMT 2020  
-	darklime:  
-		Change recipe condition log level to debug. (#6621)  
-  
-	darklime:  
-		Fix vanilla loot table resource leak. (#6622)  
-  
-	LordMonoxide:  
-		Fixed ChunkDataEvent.Save being fired with a null world if chunk isn't fully generated when unloaded. (#6628)  
+Build: 1.15.2-31.1.71 - Sun May 03 20:34:34 GMT 2020  
+	richard:  
+		Fixed Hoppers not inserting fully into custom contains with slots that can hold more then max stack (#6631)  
   
 # History
 <p align="center">
