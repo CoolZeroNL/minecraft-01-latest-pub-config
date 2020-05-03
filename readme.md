@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.71
+FORGEVER=31.1.72
 
 # Changes
-Build: 1.15.2-31.1.71 - Sun May 03 20:34:34 GMT 2020  
-	richard:  
-		Fixed Hoppers not inserting fully into custom contains with slots that can hold more then max stack (#6631)  
+Build: 1.15.2-31.1.72 - Sun May 03 20:40:43 GMT 2020  
+	Bward7864:  
+		Allow overriding of tool level requirements when harvesting a block, via the HarvestCheck event.  (#6632)  
   
 # History
 <p align="center">
