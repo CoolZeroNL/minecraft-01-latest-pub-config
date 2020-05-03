@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.64
+FORGEVER=31.1.66
 
 # Changes
-Build: 1.15.2-31.1.64 - Sun May 03 19:56:55 GMT 2020  
-	ichttt:  
-		Fix config comments referencing disallowed enum values. (#6542)  
+Build: 1.15.2-31.1.66 - Sun May 03 20:15:40 GMT 2020  
+	dion:  
+		Added missing localization for swim speed, and reach distance attributes (#6585)  
   
 # History
 <p align="center">
