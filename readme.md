@@ -2,12 +2,18 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.66
+FORGEVER=31.1.70
 
 # Changes
-Build: 1.15.2-31.1.66 - Sun May 03 20:15:40 GMT 2020  
-	dion:  
-		Added missing localization for swim speed, and reach distance attributes (#6585)  
+Build: 1.15.2-31.1.70 - Sun May 03 20:27:39 GMT 2020  
+	darklime:  
+		Change recipe condition log level to debug. (#6621)  
+  
+	darklime:  
+		Fix vanilla loot table resource leak. (#6622)  
+  
+	LordMonoxide:  
+		Fixed ChunkDataEvent.Save being fired with a null world if chunk isn't fully generated when unloaded. (#6628)  
   
 # History
 <p align="center">
