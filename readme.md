@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.72
+FORGEVER=31.1.73
 
 # Changes
-Build: 1.15.2-31.1.72 - Sun May 03 20:40:43 GMT 2020  
-	Bward7864:  
-		Allow overriding of tool level requirements when harvesting a block, via the HarvestCheck event.  (#6632)  
+Build: 1.15.2-31.1.73 - Sun May 03 20:48:25 GMT 2020  
+	jacob101607:  
+		Fix issue with providing a null ItemStack to onPlayerDestroyItem (#6633)  
   
 # History
 <p align="center">
