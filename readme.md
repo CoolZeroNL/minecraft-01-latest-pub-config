@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.63
+FORGEVER=31.1.64
 
 # Changes
-Build: 1.15.2-31.1.63 - Tue Apr 28 17:23:47 GMT 2020  
-	David Quintana:  
-		Remove redundant call to modifyLoot. Closes #6657  
+Build: 1.15.2-31.1.64 - Sun May 03 19:56:55 GMT 2020  
+	ichttt:  
+		Fix config comments referencing disallowed enum values. (#6542)  
   
 # History
 <p align="center">
