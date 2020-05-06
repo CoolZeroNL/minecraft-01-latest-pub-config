@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.75
+FORGEVER=31.1.76
 
 # Changes
-Build: 1.15.2-31.1.75 - Wed May 06 11:31:06 GMT 2020  
-	David Quintana:  
-		Patch the bucket logic to not hardcode some checks to WATER. Fixes not being able to place custom fluids into modded fluid-loggable blocks that accept fluids other than water.  
+Build: 1.15.2-31.1.76 - Wed May 06 20:41:52 GMT 2020  
+	jmansfield:  
+		Fix ModListScreen escape key not matching done button behavior. Closes #6672  
   
 # History
 <p align="center">
