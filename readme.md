@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.74
+FORGEVER=31.1.75
 
 # Changes
-Build: 1.15.2-31.1.74 - Sun May 03 23:13:58 GMT 2020  
+Build: 1.15.2-31.1.75 - Wed May 06 11:31:06 GMT 2020  
 	David Quintana:  
-		Avoid discarding the bottom 4 bits of the lightmap coords. It turns out vanilla relies on those bits. Fixes some blocks being darker than they should be in certain circumstances.  
+		Patch the bucket logic to not hardcode some checks to WATER. Fixes not being able to place custom fluids into modded fluid-loggable blocks that accept fluids other than water.  
   
 # History
 <p align="center">
