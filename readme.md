@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.76
+FORGEVER=31.1.77
 
 # Changes
-Build: 1.15.2-31.1.76 - Wed May 06 20:41:52 GMT 2020  
+Build: 1.15.2-31.1.77 - Wed May 06 20:49:23 GMT 2020  
 	jmansfield:  
-		Fix ModListScreen escape key not matching done button behavior. Closes #6672  
+		Fixed informational /forge commands being repeated to all ops when logging is enabled. Closes #6330  
   
 # History
 <p align="center">
