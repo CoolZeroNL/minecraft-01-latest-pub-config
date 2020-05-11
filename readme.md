@@ -2,12 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.77
+FORGEVER=31.1.78
 
 # Changes
-Build: 1.15.2-31.1.77 - Wed May 06 20:49:23 GMT 2020  
-	jmansfield:  
-		Fixed informational /forge commands being repeated to all ops when logging is enabled. Closes #6330  
+Build: 1.15.2-31.1.78 - Mon May 11 00:35:20 GMT 2020  
+	cpw:  
+		Update to newer eventbus, with typetools compatibility with jvms up to j14. No guarantees on actual game compatibility however.  
+		  
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
 # History
 <p align="center">
