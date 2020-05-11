@@ -2,14 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.78
+FORGEVER=31.1.79
 
 # Changes
-Build: 1.15.2-31.1.78 - Mon May 11 00:35:20 GMT 2020  
-	cpw:  
-		Update to newer eventbus, with typetools compatibility with jvms up to j14. No guarantees on actual game compatibility however.  
-		  
-		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
+Build: 1.15.2-31.1.79 - Mon May 11 22:28:50 GMT 2020  
+	laughlan.cov:  
+		Fix IForgeBlock.removedByPlayer not firing on the client. (#6638)  
   
 # History
 <p align="center">
