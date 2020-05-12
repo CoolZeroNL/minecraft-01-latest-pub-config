@@ -2,18 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.84
+FORGEVER=31.1.85
 
 # Changes
-Build: 1.15.2-31.1.84 - Tue May 12 21:23:13 GMT 2020  
-	jmansfield:  
-		Fix vanilla screens escape key not matching done button behavior (#6682)  
-  
-	jmansfield:  
-		Fixed CropGrowEvents not firing for Bamboo (#6680)  
-  
-	tomboshoven:  
-		Fixed tile entities persisting when switching between states that don't have TEs without changing the block. (#6674)  
+Build: 1.15.2-31.1.85 - Tue May 12 21:29:40 GMT 2020  
+	jdk:  
+		Allow Bees to use custom hives. (#6656)  
   
 # History
 <p align="center">
