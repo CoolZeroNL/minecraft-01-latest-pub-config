@@ -2,12 +2,18 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.81
+FORGEVER=31.1.84
 
 # Changes
-Build: 1.15.2-31.1.81 - Tue May 12 21:17:26 GMT 2020  
-	ShetiPhian:  
-		Fixed FluidTank.drain calling onContentsChanged when simulating (#6684)  
+Build: 1.15.2-31.1.84 - Tue May 12 21:23:13 GMT 2020  
+	jmansfield:  
+		Fix vanilla screens escape key not matching done button behavior (#6682)  
+  
+	jmansfield:  
+		Fixed CropGrowEvents not firing for Bamboo (#6680)  
+  
+	tomboshoven:  
+		Fixed tile entities persisting when switching between states that don't have TEs without changing the block. (#6674)  
   
 # History
 <p align="center">
