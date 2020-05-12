@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.80
+FORGEVER=31.1.81
 
 # Changes
-Build: 1.15.2-31.1.80 - Tue May 12 21:08:20 GMT 2020  
-	lex:  
-		Fix infinite loading screen when resources error. Closes #6592 & #6593  
+Build: 1.15.2-31.1.81 - Tue May 12 21:17:26 GMT 2020  
+	ShetiPhian:  
+		Fixed FluidTank.drain calling onContentsChanged when simulating (#6684)  
   
 # History
 <p align="center">
