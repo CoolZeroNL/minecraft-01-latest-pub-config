@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.85
+FORGEVER=31.1.86
 
 # Changes
-Build: 1.15.2-31.1.85 - Tue May 12 21:29:40 GMT 2020  
-	jdk:  
-		Allow Bees to use custom hives. (#6656)  
+Build: 1.15.2-31.1.86 - Tue May 12 22:02:09 GMT 2020  
+	LXGaming:  
+		Fix exclusion of coremods not filtering correctly when the mods directory is a symbolic link. (#6600)  
   
 # History
 <p align="center">
