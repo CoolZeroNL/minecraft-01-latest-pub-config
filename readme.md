@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.79
+FORGEVER=31.1.80
 
 # Changes
-Build: 1.15.2-31.1.79 - Mon May 11 22:28:50 GMT 2020  
-	laughlan.cov:  
-		Fix IForgeBlock.removedByPlayer not firing on the client. (#6638)  
+Build: 1.15.2-31.1.80 - Tue May 12 21:08:20 GMT 2020  
+	lex:  
+		Fix infinite loading screen when resources error. Closes #6592 & #6593  
   
 # History
 <p align="center">
