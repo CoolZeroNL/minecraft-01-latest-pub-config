@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.87
+FORGEVER=31.1.88
 
 # Changes
-Build: 1.15.2-31.1.87 - Tue May 12 22:11:53 GMT 2020  
-	ichttt:  
-		Fix server config directory remaining locked when integrated server is shut down. (#6644)  
+Build: 1.15.2-31.1.88 - Thu May 14 20:22:21 GMT 2020  
+	thpetuaudletang:  
+		Fix LevelChange event not firing after enchanting (#6693)  
   
 # History
 <p align="center">
