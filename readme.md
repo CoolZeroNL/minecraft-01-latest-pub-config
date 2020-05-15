@@ -2,12 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.89
+FORGEVER=31.1.91
 
 # Changes
-Build: 1.15.2-31.1.89 - Fri May 15 14:45:46 GMT 2020  
-	laughlan.cov:  
-		Remove duplicate post of ChunkEvent.Load. (#6697)  
+Build: 1.15.2-31.1.91 - Fri May 15 16:38:42 GMT 2020  
+	lex:  
+		Fixed Partivle.onGround not updating correctly due to decompile error. Closes #6595  
+  
+	lex:  
+		Fixed typo in registry alias writing causing infinite loop. Closes #6689  
   
 # History
 <p align="center">
