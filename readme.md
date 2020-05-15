@@ -2,15 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.97
+FORGEVER=31.1.98
 
 # Changes
-Build: 1.15.2-31.1.97 - Fri May 15 18:00:19 GMT 2020  
-	lex:  
-		Fix incorrect argument passed in RenderPipeline potentially causing crash. #6677  
-  
-	lex:  
-		Fix FireBlock using flammability instead of spread speed when looking for places to spread. Closes #6646  
+Build: 1.15.2-31.1.98 - Fri May 15 18:34:16 GMT 2020  
+	ichttt:  
+		fix test mod and add warning comment to framebuffer (#6698)  
   
 # History
 <p align="center">
