@@ -2,14 +2,16 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.93
+FORGEVER=31.1.95
 
 # Changes
-Build: 1.15.2-31.1.93 - Fri May 15 17:32:12 GMT 2020  
-	Edwin.mindcraft:  
-		Use IProperty#getName when generating blockstate jsons (#6582)  
-		  
-		Close #6520   
+Build: 1.15.2-31.1.95 - Fri May 15 17:53:00 GMT 2020  
+	FunwayguyEmail:  
+		Re-added patch to enable stencil buffer in net.minecraft.client.shader.Framebuffer  
+		Add test for the stencil buffer feature. Only tests that it doesn't crash when enabling, for now. - giga  
+  
+	thesilkminer:  
+		Allow Music Discs to be created with SoundEvent delegates. (#6523)  
   
 # History
 <p align="center">
