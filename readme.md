@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.98
+FORGEVER=31.1.99
 
 # Changes
-Build: 1.15.2-31.1.98 - Fri May 15 18:34:16 GMT 2020  
-	ichttt:  
-		fix test mod and add warning comment to framebuffer (#6698)  
+Build: 1.15.2-31.1.99 - Fri May 15 19:25:51 GMT 2020  
+	lex:  
+		Update MCP Mappings.  
   
 # History
 <p align="center">
