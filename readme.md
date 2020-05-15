@@ -2,15 +2,16 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.91
+FORGEVER=31.1.92
 
 # Changes
-Build: 1.15.2-31.1.91 - Fri May 15 16:38:42 GMT 2020  
-	lex:  
-		Fixed Partivle.onGround not updating correctly due to decompile error. Closes #6595  
-  
-	lex:  
-		Fixed typo in registry alias writing causing infinite loop. Closes #6689  
+Build: 1.15.2-31.1.92 - Fri May 15 17:26:19 GMT 2020  
+	David Quintana:  
+		Model system fixes:  
+		- Add "origin" key to determine what origin to use. This will default to the existing (broken) behaviour to avoid breaking changes.  
+		- Fix interaction of transforms with variant transforms (transformation ordering).  
+		- Fix OBJ loader ignoring "diffuseLighting" attribute from the json.  
+		  This attribute will continue not being used if "ambientToFullbright" is on (default) to avoid breaking changes.  
   
 # History
 <p align="center">
