@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.99
+FORGEVER=31.2.0
 
 # Changes
-Build: 1.15.2-31.1.99 - Fri May 15 19:25:51 GMT 2020  
+Build: 1.15.2-31.2.0 - Fri May 15 19:34:16 GMT 2020  
 	lex:  
-		Update MCP Mappings.  
+		Bump version for new RB.  
   
 # History
 <p align="center">
