@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.1.88
+FORGEVER=31.1.89
 
 # Changes
-Build: 1.15.2-31.1.88 - Thu May 14 20:22:21 GMT 2020  
-	thpetuaudletang:  
-		Fix LevelChange event not firing after enchanting (#6693)  
+Build: 1.15.2-31.1.89 - Fri May 15 14:45:46 GMT 2020  
+	laughlan.cov:  
+		Remove duplicate post of ChunkEvent.Load. (#6697)  
   
 # History
 <p align="center">
