@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.2
+FORGEVER=31.2.3
 
 # Changes
-Build: 1.15.2-31.2.2 - Sat May 23 20:08:11 GMT 2020  
+Build: 1.15.2-31.2.3 - Sat May 23 20:23:05 GMT 2020  
 	tterrag:  
-		Improve look of notification GUI, improve StartupQuery API  
+		Fix server startup query info not including new text  
   
 # History
 <p align="center">
