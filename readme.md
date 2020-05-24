@@ -2,12 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.3
+FORGEVER=31.2.4
 
 # Changes
-Build: 1.15.2-31.2.3 - Sat May 23 20:23:05 GMT 2020  
+Build: 1.15.2-31.2.4 - Sun May 24 01:25:42 GMT 2020  
 	tterrag:  
-		Fix server startup query info not including new text  
+		Fix typo in new registry fields' names  
+		  
+		Note: this is technically a breaking change. If you for some reason added code referencing these two fields in the last few hours, sorry.  
   
 # History
 <p align="center">
