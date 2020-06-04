@@ -2,17 +2,19 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.5
+FORGEVER=31.2.7
 
 # Changes
-Build: 1.15.2-31.2.5 - Sun May 24 21:41:17 GMT 2020  
-	cpw:  
-		Improve the DistExecutor API and introduce some "almost completely" safe mechanisms to handle sided lambdas.  
-		  
-		In general, use sided lambdas safely by embedding them in a separately loaded class. There's a whole twitch stream  
-		dedicated to investigating this problem. See link in DistExecutor if you're interested.  
-		  
-		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
+Build: 1.15.2-31.2.7 - Thu Jun 04 03:08:27 GMT 2020  
+	lex:  
+		Add --flat argument to data generators to not create data in mod specific directores.  
+		Useful For Forge's test mods mainly.  
+		Standardized data gen cache file's folder separators.  
+		Added ItemModelProvider to BlockStateProvider for cleaner datagen code.  
+		Added .gitattributes to fix datagen json's line endings correct on windows.  
+  
+	lex:  
+		Remove dead test classes.  
   
 # History
 <p align="center">
