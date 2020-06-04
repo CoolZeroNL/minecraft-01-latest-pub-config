@@ -2,19 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.7
+FORGEVER=31.2.8
 
 # Changes
-Build: 1.15.2-31.2.7 - Thu Jun 04 03:08:27 GMT 2020  
-	lex:  
-		Add --flat argument to data generators to not create data in mod specific directores.  
-		Useful For Forge's test mods mainly.  
-		Standardized data gen cache file's folder separators.  
-		Added ItemModelProvider to BlockStateProvider for cleaner datagen code.  
-		Added .gitattributes to fix datagen json's line endings correct on windows.  
-  
-	lex:  
-		Remove dead test classes.  
+Build: 1.15.2-31.2.8 - Thu Jun 04 14:16:58 GMT 2020  
+	David Quintana:  
+		Implement loader for ItemLayerModel.  
+		Add support for specifying which layers are fullbright.  
+		Fix improper generation of model edge. - Thanks to iChun and KnightMiner for the fix suggestions.  
   
 # History
 <p align="center">
