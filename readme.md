@@ -2,14 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.8
+FORGEVER=31.2.9
 
 # Changes
-Build: 1.15.2-31.2.8 - Thu Jun 04 14:16:58 GMT 2020  
-	David Quintana:  
-		Implement loader for ItemLayerModel.  
-		Add support for specifying which layers are fullbright.  
-		Fix improper generation of model edge. - Thanks to iChun and KnightMiner for the fix suggestions.  
+Build: 1.15.2-31.2.9 - Sun Jun 07 15:55:20 GMT 2020  
+	diesieben07:  
+		Fix "overlayMessage" rendering in ForgeIngameGui being different than vanilla (#6748)  
   
 # History
 <p align="center">
