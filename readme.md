@@ -2,12 +2,15 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.9
+FORGEVER=31.2.12
 
 # Changes
-Build: 1.15.2-31.2.9 - Sun Jun 07 15:55:20 GMT 2020  
+Build: 1.15.2-31.2.12 - Fri Jun 12 22:37:06 GMT 2020  
+	Colby Prince:  
+		Added ProjectileImpactEvent.FireworkRocket (#6758)  
+  
 	diesieben07:  
-		Fix "overlayMessage" rendering in ForgeIngameGui being different than vanilla (#6748)  
+		Fix StartupQuery not working more than once on the client (#6699)  
   
 # History
 <p align="center">
