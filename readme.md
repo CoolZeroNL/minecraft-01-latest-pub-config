@@ -2,18 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.15
+FORGEVER=31.2.16
 
 # Changes
-Build: 1.15.2-31.2.15 - Fri Jun 12 22:48:51 GMT 2020  
-	brandon4261:  
-		Fixed ItemStack comparison ignoring capabilities when stack nbt is null. (#6764)  
-  
-	Colby Prince:  
-		Fixed --server argument crashing the client (#6754)  
-		  
-		Closes #6753  
-		Moving the fadeOutStart setter above the callback invocation prevents re-entry into the block (which would result in an infinite loop and a StackOverflowException) if the callback causes a render tick (which creating a new ConnectionScreen does).  
+Build: 1.15.2-31.2.16 - Fri Jun 12 23:24:45 GMT 2020  
+	lex:  
+		Fix entity pathing not matching vanilla. Closes #6755  
   
 # History
 <p align="center">
