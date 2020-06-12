@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.16
+FORGEVER=31.2.17
 
 # Changes
-Build: 1.15.2-31.2.16 - Fri Jun 12 23:24:45 GMT 2020  
+Build: 1.15.2-31.2.17 - Fri Jun 12 23:37:10 GMT 2020  
 	lex:  
-		Fix entity pathing not matching vanilla. Closes #6755  
+		Remove the yellow coloring on hover in ExtendedButton to match vanilla behavior. Closes #6714 Closes #6713  
   
 # History
 <p align="center">
