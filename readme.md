@@ -2,15 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.12
+FORGEVER=31.2.13
 
 # Changes
-Build: 1.15.2-31.2.12 - Fri Jun 12 22:37:06 GMT 2020  
-	Colby Prince:  
-		Added ProjectileImpactEvent.FireworkRocket (#6758)  
-  
-	diesieben07:  
-		Fix StartupQuery not working more than once on the client (#6699)  
+Build: 1.15.2-31.2.13 - Fri Jun 12 22:42:58 GMT 2020  
+	williewillus:  
+		Supply matrixstack to IRenderHandler where possible. Closes #6439 (#6537)  
   
 # History
 <p align="center">
