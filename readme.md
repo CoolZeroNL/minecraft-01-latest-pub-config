@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.18
+FORGEVER=31.2.19
 
 # Changes
-Build: 1.15.2-31.2.18 - Fri Jun 12 23:53:12 GMT 2020  
+Build: 1.15.2-31.2.19 - Sat Jun 13 00:28:16 GMT 2020  
 	lex:  
-		Fire SpecialSpawn event for mobs spawners. Closes #6700  
+		Fix dedicated server issue in some implementations of Block.getPickBlock. Closes #6566  
   
 # History
 <p align="center">
