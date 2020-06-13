@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.17
+FORGEVER=31.2.18
 
 # Changes
-Build: 1.15.2-31.2.17 - Fri Jun 12 23:37:10 GMT 2020  
+Build: 1.15.2-31.2.18 - Fri Jun 12 23:53:12 GMT 2020  
 	lex:  
-		Remove the yellow coloring on hover in ExtendedButton to match vanilla behavior. Closes #6714 Closes #6713  
+		Fire SpecialSpawn event for mobs spawners. Closes #6700  
   
 # History
 <p align="center">
