@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.19
+FORGEVER=31.2.20
 
 # Changes
-Build: 1.15.2-31.2.19 - Sat Jun 13 00:28:16 GMT 2020  
-	lex:  
-		Fix dedicated server issue in some implementations of Block.getPickBlock. Closes #6566  
+Build: 1.15.2-31.2.20 - Mon Jun 15 16:37:17 GMT 2020  
+	diesieben07:  
+		Add system for dimensions to be marked for deletion (#6515)  
   
 # History
 <p align="center">
