@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.20
+FORGEVER=31.2.21
 
 # Changes
-Build: 1.15.2-31.2.20 - Mon Jun 15 16:37:17 GMT 2020  
-	diesieben07:  
-		Add system for dimensions to be marked for deletion (#6515)  
+Build: 1.15.2-31.2.21 - Thu Jun 18 21:24:34 GMT 2020  
+	Colby Prince:  
+		Potential userProperties Fix (#6740)  
   
 # History
 <p align="center">
