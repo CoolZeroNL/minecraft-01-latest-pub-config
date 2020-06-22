@@ -2,12 +2,12 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.21
+FORGEVER=31.2.22
 
 # Changes
-Build: 1.15.2-31.2.21 - Thu Jun 18 21:24:34 GMT 2020  
-	Colby Prince:  
-		Potential userProperties Fix (#6740)  
+Build: 1.15.2-31.2.22 - Mon Jun 22 07:52:41 GMT 2020  
+	diesieben07:  
+		Throw an exception from DeferredRegister when trying to register entries after registry event has fired (#6789)  
   
 # History
 <p align="center">
