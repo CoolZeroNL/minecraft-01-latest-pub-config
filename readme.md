@@ -2,12 +2,14 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.22
+FORGEVER=31.2.23
 
 # Changes
-Build: 1.15.2-31.2.22 - Mon Jun 22 07:52:41 GMT 2020  
-	diesieben07:  
-		Throw an exception from DeferredRegister when trying to register entries after registry event has fired (#6789)  
+Build: 1.15.2-31.2.23 - Wed Jun 24 02:14:02 GMT 2020  
+	cpw:  
+		Modify how modfiles load slightly, for better decoupling.  
+		  
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>  
   
 # History
 <p align="center">
