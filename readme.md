@@ -1,10 +1,11 @@
 # Current Version
 
-MCVER=1.15.2
+MCVER=1.16.1
 
-FORGEVER=31.2.27
+FORGEVER=32.0.0
 
 # Changes
+
 Build: 1.15.2-31.2.27 - Thu Jun 25 17:11:42 GMT 2020
 	laughlan.cov:
 		Allow RayTraceContext to be constructed with a null entity. (#6708)
