@@ -2,9 +2,12 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.0
+FORGEVER=32.0.1
 
 # Changes
+Build: 1.16.1-32.0.1 - Thu Jun 25 23:24:48 GMT 2020
+	lex:
+		Bump MCPConfig version.
 
 Build: 1.15.2-31.2.27 - Thu Jun 25 17:11:42 GMT 2020
 	laughlan.cov:
