@@ -2,10 +2,13 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.24
+FORGEVER=31.2.26
 
 # Changes
-# History
+Build: 1.15.2-31.2.26 - Thu Jun 25 16:35:52 GMT 2020
+	lalis.jan:
+		Replace explicit shears reference in vanilla loot tables with tag for modded shears. (#6765)
+
 <p align="center">
   <img width="100%" src="./plot.svg">
 </p>
