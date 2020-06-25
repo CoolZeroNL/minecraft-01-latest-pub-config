@@ -2,9 +2,13 @@
 
 MCVER=1.15.2
 
-FORGEVER=31.2.26
+FORGEVER=31.2.27
 
 # Changes
+Build: 1.15.2-31.2.27 - Thu Jun 25 17:11:42 GMT 2020
+	laughlan.cov:
+		Allow RayTraceContext to be constructed with a null entity. (#6708)
+
 Build: 1.15.2-31.2.26 - Thu Jun 25 16:35:52 GMT 2020
 	lalis.jan:
 		Replace explicit shears reference in vanilla loot tables with tag for modded shears. (#6765)
