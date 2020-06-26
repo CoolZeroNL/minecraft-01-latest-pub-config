@@ -2,9 +2,17 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.9
+FORGEVER=32.0.10
 
 # Changes
+Build: 1.16.1-32.0.10 - Fri Jun 26 12:36:59 GMT 2020
+	42079760+TheCurle:
+		Retarget Block.Properties patch to the new AbstractBlock, reintroduce harvestLevel and harvestTool fields (#6819)
+		
+		* Retarget Block.Properties patch to the new AbstractBlock, reintroduces the harvestLevel and harvestTool fields.
+		
+		* Slight adjustment to fix the lootTableSupplier.
+
 Build: 1.16.1-32.0.9 - Fri Jun 26 12:31:37 GMT 2020
 	Yunus1903:
 		Fixed sneaking while swimming (#6817)
