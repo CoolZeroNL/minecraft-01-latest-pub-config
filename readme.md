@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.7
+FORGEVER=32.0.8
 
 # Changes
+Build:  - Fri Jun 26 12:25:07 GMT 2020
+	thpetuaudletang:
+		Fixed tooltip rendering issues (#6815)
+
 Build: 1.16.1-32.0.7 - Fri Jun 26 02:30:54 GMT 2020
 	thpetuaudletang:
 		Fixed villager trades having non-applicable enchants
