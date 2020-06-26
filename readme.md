@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.20
+FORGEVER=32.0.21
 
 # Changes
+Build: 1.16.1-32.0.21 - Fri Jun 26 22:40:19 GMT 2020
+	lex:
+		Fix blocks being harvested with incorrect tools.
+
 Build: 1.16.1-32.0.20 - Fri Jun 26 19:53:02 GMT 2020
 	lex:
 		Make installer use MCPConfig version to identify MC assets.
