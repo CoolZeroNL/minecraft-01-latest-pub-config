@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.17
+FORGEVER=32.0.18
 
 # Changes
+Build: 1.16.1-32.0.18 - Fri Jun 26 16:56:37 GMT 2020
+	lex:
+		Fix dedicated server loading by constructing mods before data packs are created.
+
 Build: 1.16.1-32.0.17 - Fri Jun 26 15:20:37 GMT 2020
 	David Quintana:
 		Fix create method.
