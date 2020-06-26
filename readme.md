@@ -2,9 +2,19 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.10
+FORGEVER=32.0.13
 
 # Changes
+Build: 1.16.1-32.0.13 - Fri Jun 26 13:05:18 GMT 2020
+	mods.itsmeow:
+		[1.16.x] Allow GlobalEntityTypeAttributes' EntityType -> AttributeModifierMap to be added to (#6822)
+		
+		* Make GlobalEntityTypeAttributes map able to be added to
+		
+		* Split get patch into two lines
+		
+		* Favor Forge's map over vanilla
+
 Build: 1.16.1-32.0.10 - Fri Jun 26 12:36:59 GMT 2020
 	42079760+TheCurle:
 		Retarget Block.Properties patch to the new AbstractBlock, reintroduce harvestLevel and harvestTool fields (#6819)
