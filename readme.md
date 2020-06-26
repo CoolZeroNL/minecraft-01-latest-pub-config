@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.19
+FORGEVER=32.0.20
 
 # Changes
+Build: 1.16.1-32.0.20 - Fri Jun 26 19:53:02 GMT 2020
+	lex:
+		Make installer use MCPConfig version to identify MC assets.
+
 Build: 1.16.1-32.0.19 - Fri Jun 26 18:27:49 GMT 2020
 	cpw:
 		Tweak the server startup a bit, make sure methods that can't work because they run before a server exists explode saying so.
