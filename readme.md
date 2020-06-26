@@ -2,9 +2,16 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.18
+FORGEVER=32.0.19
 
 # Changes
+Build: 1.16.1-32.0.19 - Fri Jun 26 18:27:49 GMT 2020
+	cpw:
+		Tweak the server startup a bit, make sure methods that can't work because they run before a server exists explode saying so.
+		Also fix other launch profiles.
+		
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
 Build: 1.16.1-32.0.18 - Fri Jun 26 16:56:37 GMT 2020
 	lex:
 		Fix dedicated server loading by constructing mods before data packs are created.
