@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.1
+FORGEVER=32.0.2
 
 # Changes
+Build: 1.16.1-32.0.2 - Fri Jun 26 01:41:51 GMT 2020
+	lex:
+		Rework BlockSnapshot and fix client notifications. Closes #6807
+
 Build: 1.16.1-32.0.1 - Thu Jun 25 23:24:48 GMT 2020
 	lex:
 		Bump MCPConfig version.
