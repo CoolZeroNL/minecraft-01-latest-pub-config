@@ -2,9 +2,15 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.6
+FORGEVER=32.0.7
 
 # Changes
+Build: 1.16.1-32.0.7 - Fri Jun 26 02:30:54 GMT 2020
+	thpetuaudletang:
+		Fixed villager trades having non-applicable enchants
+		
+		Also added an AT at lex's request
+
 Build: 1.16.1-32.0.6 - Fri Jun 26 01:52:19 GMT 2020
 	thpetuaudletang:
 		Fix locate command (#6811)
