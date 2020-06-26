@@ -2,9 +2,24 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.2
+FORGEVER=32.0.6
 
 # Changes
+Build: 1.16.1-32.0.6 - Fri Jun 26 01:52:19 GMT 2020
+	thpetuaudletang:
+		Fix locate command (#6811)
+
+	thpetuaudletang:
+		Fix block drops (#6810)
+
+	contact:
+		Add missing patch to ScreenShotHelper (#6809)
+		
+		Adds the missed patch back
+
+	Yunus1903:
+		Updated MDK mods.toml versions (#6808)
+
 Build: 1.16.1-32.0.2 - Fri Jun 26 01:41:51 GMT 2020
 	lex:
 		Rework BlockSnapshot and fix client notifications. Closes #6807
