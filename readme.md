@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.14
+FORGEVER=32.0.15
 
 # Changes
+Build: 1.16.1-32.0.15 - Fri Jun 26 13:55:42 GMT 2020
+	thpetuaudletang:
+		Include a getter for the matrix stack in OverlayEvent (#6834)
+
 Build: 1.16.1-32.0.14 - Fri Jun 26 13:23:07 GMT 2020
 	thpetuaudletang:
 		Fix block render types not being properly applied to item entities (#6832)
