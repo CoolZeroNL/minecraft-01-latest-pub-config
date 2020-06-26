@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.13
+FORGEVER=32.0.14
 
 # Changes
+Build: 1.16.1-32.0.14 - Fri Jun 26 13:23:07 GMT 2020
+	thpetuaudletang:
+		Fix block render types not being properly applied to item entities (#6832)
+
 Build: 1.16.1-32.0.13 - Fri Jun 26 13:05:18 GMT 2020
 	mods.itsmeow:
 		[1.16.x] Allow GlobalEntityTypeAttributes' EntityType -> AttributeModifierMap to be added to (#6822)
