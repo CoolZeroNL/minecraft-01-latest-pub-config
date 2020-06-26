@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.8
+FORGEVER=32.0.9
 
 # Changes
+Build: 1.16.1-32.0.9 - Fri Jun 26 12:31:37 GMT 2020
+	Yunus1903:
+		Fixed sneaking while swimming (#6817)
+
 Build:  - Fri Jun 26 12:25:07 GMT 2020
 	thpetuaudletang:
 		Fixed tooltip rendering issues (#6815)
