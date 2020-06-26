@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.15
+FORGEVER=32.0.16
 
 # Changes
+Build: 1.16.1-32.0.16 - Fri Jun 26 14:43:19 GMT 2020
+	David Quintana:
+		Reintroduce missed patch in EntityClassification.
+
 Build: 1.16.1-32.0.15 - Fri Jun 26 13:55:42 GMT 2020
 	thpetuaudletang:
 		Include a getter for the matrix stack in OverlayEvent (#6834)
