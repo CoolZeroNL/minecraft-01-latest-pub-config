@@ -2,9 +2,14 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.16
+FORGEVER=32.0.17
 
 # Changes
+Build: 1.16.1-32.0.17 - Fri Jun 26 15:20:37 GMT 2020
+	David Quintana:
+		Fix create method.
+		Fix test mods not loading correctly.
+
 Build: 1.16.1-32.0.16 - Fri Jun 26 14:43:19 GMT 2020
 	David Quintana:
 		Reintroduce missed patch in EntityClassification.
