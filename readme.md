@@ -2,9 +2,14 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.23
+FORGEVER=32.0.24
 
 # Changes
+Build: 1.16.1-32.0.24 - Sat Jun 27 22:50:54 GMT 2020
+	David Quintana:
+		Add a model loader that lets mods specify different models for different perspectives.
+		Allow custom models to reference vanilla item models as child models.
+
 Build: 1.16.1-32.0.23 - Fri Jun 26 23:55:23 GMT 2020
 	thpetuaudletang:
 		fix misapplied patch
