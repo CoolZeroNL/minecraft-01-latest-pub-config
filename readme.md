@@ -2,9 +2,15 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.21
+FORGEVER=32.0.23
 
 # Changes
+Build: 1.16.1-32.0.23 - Fri Jun 26 23:55:23 GMT 2020
+	thpetuaudletang:
+		fix misapplied patch
+		
+		also sneak in an import patch removal
+
 Build: 1.16.1-32.0.21 - Fri Jun 26 22:40:19 GMT 2020
 	lex:
 		Fix blocks being harvested with incorrect tools.
