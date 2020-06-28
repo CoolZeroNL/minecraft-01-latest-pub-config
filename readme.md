@@ -2,9 +2,14 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.24
+FORGEVER=32.0.25
 
 # Changes
+Build: 1.16.1-32.0.25 - Sun Jun 28 22:08:15 GMT 2020
+	lex:
+		Fix Forge's internal handler being registered in wrong place.
+		Fix double call to loader end.
+
 Build: 1.16.1-32.0.24 - Sat Jun 27 22:50:54 GMT 2020
 	David Quintana:
 		Add a model loader that lets mods specify different models for different perspectives.
