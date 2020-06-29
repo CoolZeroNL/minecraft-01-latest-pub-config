@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.25
+FORGEVER=32.0.26
 
 # Changes
+Build: 1.16.1-32.0.26 - Mon Jun 29 19:42:50 GMT 2020
+	lex:
+		Fix tag related issues when connecting to a vanilla server.
+
 Build: 1.16.1-32.0.25 - Sun Jun 28 22:08:15 GMT 2020
 	lex:
 		Fix Forge's internal handler being registered in wrong place.
