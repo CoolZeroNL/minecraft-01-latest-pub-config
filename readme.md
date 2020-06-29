@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.28
+FORGEVER=32.0.29
 
 # Changes
+Build: 1.16.1-32.0.29 - Mon Jun 29 21:08:55 GMT 2020
+	lex:
+		Fix missed patch in PlayerList and EntitySelectioonContext. Closes #6846 Closes #6850
+
 Build: 1.16.1-32.0.27 - Mon Jun 29 20:09:12 GMT 2020
 	richard:
 		Fix access levels being hardcoded to private via patch overriding AT entry (#6848)
