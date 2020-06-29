@@ -2,7 +2,7 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.27
+FORGEVER=32.0.28
 
 # Changes
 Build: 1.16.1-32.0.27 - Mon Jun 29 20:09:12 GMT 2020
