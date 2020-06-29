@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.30
+FORGEVER=32.0.32
 
 # Changes
+Build: 1.16.1-32.0.32 - Mon Jun 29 23:43:01 GMT 2020
+	thpetuaudletang:
+		Fix datagen resolving tags and exploding. (#6865)
+
 Build: 1.16.1-32.0.30 - Mon Jun 29 22:58:30 GMT 2020
 	diesieben07:
 		Fix IItemHandler wrappers for chests not updating both chests (#6875)
