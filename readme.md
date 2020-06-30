@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.33
+FORGEVER=32.0.34
 
 # Changes
+Build: 1.16.1-32.0.34 - Tue Jun 30 02:33:58 GMT 2020
+	lex:
+		Re-write checkATs function and automate making Items/Blocks public.
+
 Build: 1.16.1-32.0.33 - Tue Jun 30 02:10:14 GMT 2020
 	cpw:
 		Reorganize modloading on the dediserver. This removes the DedicatedServer parameter from the FMLDedicatedServerSetupEvent.
