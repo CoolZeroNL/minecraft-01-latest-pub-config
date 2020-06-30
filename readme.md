@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.35
+FORGEVER=32.0.36
 
 # Changes
+Build: 1.16.1-32.0.36 - Tue Jun 30 20:09:21 GMT 2020
+	curle:
+		Allow any armor to have custom knockback resistance (#6877)
+
 Build: 1.16.1-32.0.35 - Tue Jun 30 19:57:32 GMT 2020
 	diesieben07:
 		Add senderUUID to ClientChatReceivedEvent (#6881)
