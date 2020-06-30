@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.34
+FORGEVER=32.0.35
 
 # Changes
+Build: 1.16.1-32.0.35 - Tue Jun 30 19:57:32 GMT 2020
+	diesieben07:
+		Add senderUUID to ClientChatReceivedEvent (#6881)
+
 Build: 1.16.1-32.0.34 - Tue Jun 30 02:33:58 GMT 2020
 	lex:
 		Re-write checkATs function and automate making Items/Blocks public.
