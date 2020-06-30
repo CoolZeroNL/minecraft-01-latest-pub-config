@@ -2,9 +2,16 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.36
+FORGEVER=32.0.38
 
 # Changes
+Build: 1.16.1-32.0.38 - Tue Jun 30 20:19:32 GMT 2020
+	info:
+		Add hoe tool type (#6872)
+
+	ichttt:
+		Fix loading screen color and text (#6824)
+
 Build: 1.16.1-32.0.36 - Tue Jun 30 20:09:21 GMT 2020
 	curle:
 		Allow any armor to have custom knockback resistance (#6877)
