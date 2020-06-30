@@ -2,9 +2,21 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.32
+FORGEVER=32.0.33
 
 # Changes
+Build: 1.16.1-32.0.33 - Tue Jun 30 02:10:14 GMT 2020
+	cpw:
+		Reorganize modloading on the dediserver. This removes the DedicatedServer parameter from the FMLDedicatedServerSetupEvent.
+		Code for customizing the server instance should be moved to the ServerAboutToStartEvent or similar, where the server instance
+		is available.
+		
+		This reorganization means that mods will load fully before the server is even constructed, or the server properties loaded. We also move the EULA right to the front so we don't have to wait for bootstrap.
+		
+		This should fix the problems with mods which customize world data and other things.
+		
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
 Build: 1.16.1-32.0.32 - Mon Jun 29 23:43:01 GMT 2020
 	thpetuaudletang:
 		Fix datagen resolving tags and exploding. (#6865)
