@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.38
+FORGEVER=32.0.39
 
 # Changes
+Build: 1.16.1-32.0.39 - Wed Jul 01 18:14:25 GMT 2020
+	ichttt:
+		Fix miss-aligned patch ItemEntity (#6895)
+
 Build: 1.16.1-32.0.38 - Tue Jun 30 20:19:32 GMT 2020
 	info:
 		Add hoe tool type (#6872)
