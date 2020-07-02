@@ -2,9 +2,17 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.43
+FORGEVER=32.0.44
 
 # Changes
+Build: 1.16.1-32.0.44 - Thu Jul 02 17:17:45 GMT 2020
+	David Quintana:
+		Model system improvements:
+		- Port some things I did in 1.14 which I couldn't do in 1.15 due to breaking changes.
+		- Fix multi-layer block models not working (1.16 RenderType doesn't override toString the same way anymore)
+		- Implement multi-layer item rendering.
+		- Improve CompositeModel submodel data passing.
+
 Build: 1.16.1-32.0.43 - Thu Jul 02 12:54:03 GMT 2020
 	MartijnvandenBrand:
 		Include model data in getQuads call (#6884)
