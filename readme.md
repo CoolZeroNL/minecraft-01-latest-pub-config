@@ -2,9 +2,15 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.40
+FORGEVER=32.0.41
 
 # Changes
+Build: 1.16.1-32.0.41 - Thu Jul 02 05:54:25 GMT 2020
+	tterrag:
+		Fix improper handling of baked lighting in forge light pipeline
+		
+		Closes #6812
+
 Build: 1.16.1-32.0.40 - Thu Jul 02 01:59:30 GMT 2020
 	richard:
 		Fix FMLServerAboutToStartEvent being fired too late on the integrated server https://github.com/MinecraftForge/MinecraftForge/issues/6859
