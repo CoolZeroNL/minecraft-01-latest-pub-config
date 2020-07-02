@@ -2,9 +2,18 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.41
+FORGEVER=32.0.43
 
 # Changes
+Build: 1.16.1-32.0.43 - Thu Jul 02 12:54:03 GMT 2020
+	MartijnvandenBrand:
+		Include model data in getQuads call (#6884)
+		
+		The model data wasn't included when getting quads from specific sides, but was when getting quads for side = null.
+
+	thpetuaudletang:
+		Pass matrixstack in tooltip render events (#6885)
+
 Build: 1.16.1-32.0.41 - Thu Jul 02 05:54:25 GMT 2020
 	tterrag:
 		Fix improper handling of baked lighting in forge light pipeline
