@@ -2,9 +2,14 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.46
+FORGEVER=32.0.47
 
 # Changes
+Build: 1.16.1-32.0.47 - Fri Jul 03 12:40:42 GMT 2020
+	David Quintana:
+		Attempt to use a more compatible method to initialize stencil support.
+		In case the separate attachments don't work for everyone, there's a new setting to choose the combined attachment.
+
 Build: 1.16.1-32.0.46 - Fri Jul 03 04:00:22 GMT 2020
 	David Quintana:
 		Update copyright year to 2020.
