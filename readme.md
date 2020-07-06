@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.49
+FORGEVER=32.0.50
 
 # Changes
+Build: 1.16.1-32.0.50 - Mon Jul 06 20:06:39 GMT 2020
+	diesieben07:
+		Fix missing null checks in ForgeIngameGui (#6907)
+
 Build: 1.16.1-32.0.49 - Mon Jul 06 19:50:02 GMT 2020
 	arnoldnunag12+github:
 		Fix swap offhand keybind not working in GUIs (#6920)
