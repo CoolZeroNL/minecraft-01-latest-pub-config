@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.47
+FORGEVER=32.0.49
 
 # Changes
+Build: 1.16.1-32.0.49 - Mon Jul 06 19:50:02 GMT 2020
+	arnoldnunag12+github:
+		Fix swap offhand keybind not working in GUIs (#6920)
+
 Build: 1.16.1-32.0.47 - Fri Jul 03 12:40:42 GMT 2020
 	David Quintana:
 		Attempt to use a more compatible method to initialize stencil support.
