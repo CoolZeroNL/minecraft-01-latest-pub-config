@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.52
+FORGEVER=32.0.53
 
 # Changes
+Build: 1.16.1-32.0.53 - Mon Jul 06 20:39:37 GMT 2020
+	40738104+Mysterious-Dev:
+		Add function to add items with the same behavior as the pumpkin for enderman (#6890)
+
 Build: 1.16.1-32.0.52 - Mon Jul 06 20:33:17 GMT 2020
 	richard:
 		Custom Item integration with Piglins (#6914)
