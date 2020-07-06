@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.53
+FORGEVER=32.0.54
 
 # Changes
+Build: 1.16.1-32.0.54 - Mon Jul 06 20:46:01 GMT 2020
+	richard:
+		Reimplement ITeleporter Patches (#6886)
+
 Build: 1.16.1-32.0.53 - Mon Jul 06 20:39:37 GMT 2020
 	40738104+Mysterious-Dev:
 		Add function to add items with the same behavior as the pumpkin for enderman (#6890)
