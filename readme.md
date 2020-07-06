@@ -2,9 +2,21 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.55
+FORGEVER=32.0.57
 
 # Changes
+Build: 1.16.1-32.0.57 - Mon Jul 06 21:32:33 GMT 2020
+	JDLogic:
+		Add simple patch checker and cleanup patches (#6851)
+		
+		* Add simple patch checker and cleanup patches
+		
+		* Address comments
+		 * move task implementation
+		 * genPatches is now finalized by checkPatches
+		 * the S2S artifacts are automatically removed
+		 * added class and method access checking
+
 Build: 1.16.1-32.0.55 - Mon Jul 06 21:12:45 GMT 2020
 	richard:
 		Fix harvest level and tool type not actually getting set #6906 (#6922)
