@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.50
+FORGEVER=32.0.51
 
 # Changes
+Build: 1.16.1-32.0.51 - Mon Jul 06 20:20:02 GMT 2020
+	ichttt:
+		Some dead code cleanup, and re-implement some bed hooks. (#6903)
+
 Build: 1.16.1-32.0.50 - Mon Jul 06 20:06:39 GMT 2020
 	diesieben07:
 		Fix missing null checks in ForgeIngameGui (#6907)
