@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.54
+FORGEVER=32.0.55
 
 # Changes
+Build: 1.16.1-32.0.55 - Mon Jul 06 21:12:45 GMT 2020
+	richard:
+		Fix harvest level and tool type not actually getting set #6906 (#6922)
+
 Build: 1.16.1-32.0.54 - Mon Jul 06 20:46:01 GMT 2020
 	richard:
 		Reimplement ITeleporter Patches (#6886)
