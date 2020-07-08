@@ -2,9 +2,15 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.59
+FORGEVER=32.0.60
 
 # Changes
+Build: 1.16.1-32.0.60 - Wed Jul 08 21:13:18 GMT 2020
+	arnoldnunag12+github:
+		Fix canRepair not being set true as default (#6936)
+		
+		Closes #6934 and #6935
+
 Build: 1.16.1-32.0.59 - Wed Jul 08 14:56:39 GMT 2020
 	David Quintana:
 		Fix particles sometimes "losing" the lightmap and drawing fullbright.
