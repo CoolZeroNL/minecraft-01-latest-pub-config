@@ -2,9 +2,16 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.57
+FORGEVER=32.0.59
 
 # Changes
+Build: 1.16.1-32.0.59 - Wed Jul 08 14:56:39 GMT 2020
+	David Quintana:
+		Fix particles sometimes "losing" the lightmap and drawing fullbright.
+
+	David Quintana:
+		Fix misaligned patch causing LivingEquipmentChangeEvent to never be posted.
+
 Build: 1.16.1-32.0.57 - Mon Jul 06 21:32:33 GMT 2020
 	JDLogic:
 		Add simple patch checker and cleanup patches (#6851)
