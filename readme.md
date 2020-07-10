@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.62
+FORGEVER=32.0.63
 
 # Changes
+Build: 1.16.1-32.0.63 - Fri Jul 10 22:28:22 GMT 2020
+	richard:
+		Fix race condition with DeferredRegister for custom registries (#6951)
+
 Build: 1.16.1-32.0.62 - Fri Jul 10 17:49:51 GMT 2020
 	arnoldnunag12+github:
 		Remove hooks into beacon base/payments. Vanilla uses tags now for extensibility. (#6948)
