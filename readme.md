@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.61
+FORGEVER=32.0.62
 
 # Changes
+Build: 1.16.1-32.0.62 - Fri Jul 10 17:49:51 GMT 2020
+	arnoldnunag12+github:
+		Remove hooks into beacon base/payments. Vanilla uses tags now for extensibility. (#6948)
+
 Build: 1.16.1-32.0.61 - Wed Jul 08 21:33:38 GMT 2020
 	jaredlll08:
 		Expose the DataPackRegistries instance to the AddReloadListenerEvent (#6933)
