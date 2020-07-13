@@ -2,9 +2,21 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.63
+FORGEVER=32.0.64
 
 # Changes
+Build: 1.16.1-32.0.64 - Mon Jul 13 22:17:58 GMT 2020
+	lex:
+		Fix checkPatches task. Closes #6956
+		Fix patched in method using srg name. Closes #6965
+		Fix capabilities not being collected for ClientWorld. Closes #6966
+		Fix TagEmptyCondition using client side copy of tags instead of server. Closes #6949
+		Fix ExtendedButton using narrator text. Closes #6958, Closes #6959
+		Fix misaligned patch in RepairContainer. Closes #6950, Closes #6953
+		Fix LivingJumpEvent not being fired for players jumping horses. Closes #6929
+		Remove extra getToughness method in ArmorItem. Closes #6970
+		Remove GetCollisionBoxesEvent. Closes #6921
+
 Build: 1.16.1-32.0.63 - Fri Jul 10 22:28:22 GMT 2020
 	richard:
 		Fix race condition with DeferredRegister for custom registries (#6951)
