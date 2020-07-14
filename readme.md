@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.65
+FORGEVER=32.0.66
 
 # Changes
+Build: 1.16.1-32.0.66 - Tue Jul 14 00:15:41 GMT 2020
+	darklime:
+		Make all functions in Style common. (#6931)
+
 Build: 1.16.1-32.0.65 - Mon Jul 13 22:44:53 GMT 2020
 	55965249+seymourimadeit:
 		Mark Raid.WaveMembers as an extensible enum. (#6878)
