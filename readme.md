@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.66
+FORGEVER=32.0.67
 
 # Changes
+Build: 1.16.1-32.0.67 - Wed Jul 15 19:30:53 GMT 2020
+	jaredlll08:
+		Added an event for registering commands. closes #6968 (#6969)
+
 Build: 1.16.1-32.0.66 - Tue Jul 14 00:15:41 GMT 2020
 	darklime:
 		Make all functions in Style common. (#6931)
