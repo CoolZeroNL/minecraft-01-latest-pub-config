@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.67
+FORGEVER=32.0.68
 
 # Changes
+Build: 1.16.1-32.0.68 - Thu Jul 16 21:56:30 GMT 2020
+	lex:
+		Fixed Forge commands. Closes #6973 Closes #6974 Closes #6976
+
 Build: 1.16.1-32.0.67 - Wed Jul 15 19:30:53 GMT 2020
 	jaredlll08:
 		Added an event for registering commands. closes #6968 (#6969)
