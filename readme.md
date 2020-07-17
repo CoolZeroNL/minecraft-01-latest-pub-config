@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.68
+FORGEVER=32.0.69
 
 # Changes
+Build: 1.16.1-32.0.69 - Fri Jul 17 17:35:47 GMT 2020
+	dev:
+		Filter duplicate mod files from mod file scan data (#6855)
+
 Build: 1.16.1-32.0.68 - Thu Jul 16 21:56:30 GMT 2020
 	lex:
 		Fixed Forge commands. Closes #6973 Closes #6974 Closes #6976
