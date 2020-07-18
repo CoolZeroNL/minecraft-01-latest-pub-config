@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.69
+FORGEVER=32.0.70
 
 # Changes
+Build: 1.16.1-32.0.70 - Sat Jul 18 22:35:53 GMT 2020
+	tterrag:
+		Fix inconsistencies with model/blockstate datagen
+
 Build: 1.16.1-32.0.69 - Fri Jul 17 17:35:47 GMT 2020
 	dev:
 		Filter duplicate mod files from mod file scan data (#6855)
