@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.70
+FORGEVER=32.0.71
 
 # Changes
+Build: 1.16.1-32.0.71 - Mon Jul 20 22:56:31 GMT 2020
+	cyborgmas18:
+		Load Modded Datapacks in DatapackScreen, before world creation (#6913)
+
 Build: 1.16.1-32.0.70 - Sat Jul 18 22:35:53 GMT 2020
 	tterrag:
 		Fix inconsistencies with model/blockstate datagen
