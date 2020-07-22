@@ -2,9 +2,17 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.71
+FORGEVER=32.0.73
 
 # Changes
+Build: 1.16.1-32.0.73 - Wed Jul 22 00:13:48 GMT 2020
+	cpw:
+		Don't show the early launcher GUI when running data. It's not needed and prevents use on automated builds.
+		
+		Need to investigate why a bunch of tags seem to be being blown away by rerunning on forge.
+		
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
 Build: 1.16.1-32.0.71 - Mon Jul 20 22:56:31 GMT 2020
 	cyborgmas18:
 		Load Modded Datapacks in DatapackScreen, before world creation (#6913)
