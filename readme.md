@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.73
+FORGEVER=32.0.74
 
 # Changes
+Build: 1.16.1-32.0.74 - Wed Jul 22 00:34:43 GMT 2020
+	lex:
+		Run Forge's data generators to sync 1.16 vanilla changes.
+
 Build: 1.16.1-32.0.73 - Wed Jul 22 00:13:48 GMT 2020
 	cpw:
 		Don't show the early launcher GUI when running data. It's not needed and prevents use on automated builds.
