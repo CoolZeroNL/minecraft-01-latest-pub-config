@@ -2,9 +2,15 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.74
+FORGEVER=32.0.75
 
 # Changes
+Build: 1.16.1-32.0.75 - Wed Jul 22 01:26:19 GMT 2020
+	cpw:
+		Remove startupquery. Currently wasn't functional, and 1.16 has out of band state loading in all cases, so the complex functionality there is no longer needed. Going to research using the Lifecycle indicator from DFU as a proxy/replacement. Probably with some codec FUN.
+		
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
 Build: 1.16.1-32.0.74 - Wed Jul 22 00:34:43 GMT 2020
 	lex:
 		Run Forge's data generators to sync 1.16 vanilla changes.
