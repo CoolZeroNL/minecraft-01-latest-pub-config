@@ -2,9 +2,16 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.86
+FORGEVER=32.0.88
 
 # Changes
+Build: 1.16.1-32.0.88 - Mon Jul 27 23:35:24 GMT 2020
+	ray.neiheiser:
+		Fix rail 180 rotations (#7177)
+
+	jmansfield:
+		Fire AnimalTameEvent for cats (#7172) Closes #7171
+
 Build: 1.16.1-32.0.86 - Mon Jul 27 22:56:16 GMT 2020
 	lex:
 		Fix Biome generation error.
