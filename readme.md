@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.79
+FORGEVER=32.0.80
 
 # Changes
+Build: 1.16.1-32.0.80 - Mon Jul 27 21:02:53 GMT 2020
+	aqscode:
+		Re-implement moddable flammabilities (#6983)
+
 Build: 1.16.1-32.0.79 - Mon Jul 27 20:46:11 GMT 2020
 	diesieben07:
 		Re-add patch for PlayerSetSpawnEvent (#6977)
