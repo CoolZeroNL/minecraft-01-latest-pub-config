@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.76
+FORGEVER=32.0.77
 
 # Changes
+Build: 1.16.1-32.0.77 - Mon Jul 27 20:40:33 GMT 2020
+	arnoldnunag12:
+		Fix ChunkDataEvents using different data tags (#6961) Fixes #6957
+
 Build:  - Mon Jul 27 20:27:00 GMT 2020
 	joetarbit:
 		Post SoundLoadEvent on mod bus instead of forge bus (#6955)
