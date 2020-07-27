@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.85
+FORGEVER=32.0.86
 
 # Changes
+Build: 1.16.1-32.0.86 - Mon Jul 27 22:56:16 GMT 2020
+	lex:
+		Fix Biome generation error.
+
 Build: 1.16.1-32.0.85 - Mon Jul 27 21:36:07 GMT 2020
 	dev:
 		Fix SleepingTimeCheckEvent not being fired in initial sleep test. (#7005)
