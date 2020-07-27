@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.83
+FORGEVER=32.0.84
 
 # Changes
+Build: 1.16.1-32.0.84 - Mon Jul 27 21:30:24 GMT 2020
+	Yunus1903:
+		Fix ClimberPathNavigator spinning when width is small. Closes #6993 (#6997)
+
 Build: 1.16.1-32.0.83 - Mon Jul 27 21:19:50 GMT 2020
 	mrtschipp:
 		Re-added PlayerEvent.NameFormat (#6992)
