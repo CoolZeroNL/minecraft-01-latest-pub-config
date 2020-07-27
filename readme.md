@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.84
+FORGEVER=32.0.85
 
 # Changes
+Build: 1.16.1-32.0.85 - Mon Jul 27 21:36:07 GMT 2020
+	dev:
+		Fix SleepingTimeCheckEvent not being fired in initial sleep test. (#7005)
+
 Build: 1.16.1-32.0.84 - Mon Jul 27 21:30:24 GMT 2020
 	Yunus1903:
 		Fix ClimberPathNavigator spinning when width is small. Closes #6993 (#6997)
