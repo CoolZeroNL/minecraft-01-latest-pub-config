@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.75
+FORGEVER=32.0.76
 
 # Changes
+Build:  - Mon Jul 27 20:27:00 GMT 2020
+	joetarbit:
+		Post SoundLoadEvent on mod bus instead of forge bus (#6955)
+
 Build: 1.16.1-32.0.75 - Wed Jul 22 01:26:19 GMT 2020
 	cpw:
 		Remove startupquery. Currently wasn't functional, and 1.16 has out of band state loading in all cases, so the complex functionality there is no longer needed. Going to research using the Lifecycle indicator from DFU as a proxy/replacement. Probably with some codec FUN.
