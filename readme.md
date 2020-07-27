@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.80
+FORGEVER=32.0.82
 
 # Changes
+Build: 1.16.1-32.0.82 - Mon Jul 27 21:14:02 GMT 2020
+	email.squishling:
+		Fixed modded overworld biomes not spawning [1.16.x] (#6990)
+
 Build: 1.16.1-32.0.80 - Mon Jul 27 21:02:53 GMT 2020
 	aqscode:
 		Re-implement moddable flammabilities (#6983)
