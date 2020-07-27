@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.82
+FORGEVER=32.0.83
 
 # Changes
+Build: 1.16.1-32.0.83 - Mon Jul 27 21:19:50 GMT 2020
+	mrtschipp:
+		Re-added PlayerEvent.NameFormat (#6992)
+
 Build: 1.16.1-32.0.82 - Mon Jul 27 21:14:02 GMT 2020
 	email.squishling:
 		Fixed modded overworld biomes not spawning [1.16.x] (#6990)
