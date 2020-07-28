@@ -2,9 +2,23 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.88
+FORGEVER=32.0.90
 
 # Changes
+Build: 1.16.1-32.0.90 - Tue Jul 28 00:47:35 GMT 2020
+	cpw:
+		Update modlauncher, eventbus, accesstransformers and more to use a newer mechanism for generating ASM.
+		
+		Introduced IModBusEvent as a marker interface for events on the ModBus. Expect exceptions if you use
+		the modbus for events not listened there.
+		
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
+	cpw:
+		Update coremods and spi, include mandatory license field in metadata. Added at top level of mods.toml file.
+		
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
 Build: 1.16.1-32.0.88 - Mon Jul 27 23:35:24 GMT 2020
 	ray.neiheiser:
 		Fix rail 180 rotations (#7177)
