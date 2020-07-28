@@ -2,9 +2,16 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.90
+FORGEVER=32.0.91
 
 # Changes
+Build: 1.16.1-32.0.91 - Tue Jul 28 01:07:03 GMT 2020
+	cpw:
+		Update MDK license to default to All rights reserved, and offer a link to chooseyourlicense.com as a place to research appropriate licenses.
+		
+		Note: the license field _is_ backwards compatible and will simply be ignored on older forge versions.
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
 Build: 1.16.1-32.0.90 - Tue Jul 28 00:47:35 GMT 2020
 	cpw:
 		Update modlauncher, eventbus, accesstransformers and more to use a newer mechanism for generating ASM.
