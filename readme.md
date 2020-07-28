@@ -2,9 +2,15 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.91
+FORGEVER=32.0.92
 
 # Changes
+Build: 1.16.1-32.0.92 - Tue Jul 28 01:14:20 GMT 2020
+	cpw:
+		Missed one event. NewRegistry needs the marker.
+		
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
 Build: 1.16.1-32.0.91 - Tue Jul 28 01:07:03 GMT 2020
 	cpw:
 		Update MDK license to default to All rights reserved, and offer a link to chooseyourlicense.com as a place to research appropriate licenses.
