@@ -2,9 +2,16 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.93
+FORGEVER=32.0.95
 
 # Changes
+Build:  - Tue Jul 28 19:01:27 GMT 2020
+	lex:
+		Properly shutdown FMLModContainer's event bus when an error in a lifecycle event is detected.
+
+	lex:
+		Enable EventBus type check during ForgeDev, and add IModBusEvent marker to ModelRegistryEvent.
+
 Build: 1.16.1-32.0.93 - Tue Jul 28 07:16:31 GMT 2020
 	lex:
 		Make license toml entry optional during 1.16.1
