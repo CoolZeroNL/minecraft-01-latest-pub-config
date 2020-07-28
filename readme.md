@@ -2,9 +2,15 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.95
+FORGEVER=32.0.96
 
 # Changes
+Build: 1.16.1-32.0.96 - Tue Jul 28 21:40:06 GMT 2020
+	lex:
+		Shut down all other mod handlers if the loading cycle errors.
+		This prevents other mods from throwing errors and being blamed for initial cause.
+		This is a temporary hack until cpw re-writes the mod event dispatcher.
+
 Build:  - Tue Jul 28 19:01:27 GMT 2020
 	lex:
 		Properly shutdown FMLModContainer's event bus when an error in a lifecycle event is detected.
