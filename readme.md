@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.96
+FORGEVER=32.0.97
 
 # Changes
+Build: 1.16.1-32.0.97 - Tue Jul 28 23:44:41 GMT 2020
+	lex:
+		Fix another case of swallowed errors not shutting down mods.
+
 Build: 1.16.1-32.0.96 - Tue Jul 28 21:40:06 GMT 2020
 	lex:
 		Shut down all other mod handlers if the loading cycle errors.
