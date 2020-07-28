@@ -2,9 +2,15 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.92
+FORGEVER=32.0.93
 
 # Changes
+Build: 1.16.1-32.0.93 - Tue Jul 28 07:16:31 GMT 2020
+	lex:
+		Make license toml entry optional during 1.16.1
+		There are to many existing mods to make this required.
+		Yes, we are technically before a RB and can do breaking changes. However this is too large.
+
 Build: 1.16.1-32.0.92 - Tue Jul 28 01:14:20 GMT 2020
 	cpw:
 		Missed one event. NewRegistry needs the marker.
