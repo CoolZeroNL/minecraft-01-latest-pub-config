@@ -2,9 +2,13 @@
 
 MCVER=1.16.1
 
-FORGEVER=32.0.97
+FORGEVER=32.0.98
 
 # Changes
+Build: 1.16.1-32.0.98 - Thu Jul 30 03:18:00 GMT 2020
+	tterrag:
+		Implement forge IBakedModel methods in vanilla wrapper models
+
 Build: 1.16.1-32.0.97 - Tue Jul 28 23:44:41 GMT 2020
 	lex:
 		Fix another case of swallowed errors not shutting down mods.
